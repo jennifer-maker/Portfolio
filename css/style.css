@@ -5,3 +5,282 @@ font-family: 'Work Sans', sans-serif;*/
 *{
   box-sizing: border-box;
 }
+
+/*** Header ***/
+header {
+background : #007E8B;
+width : 100%;
+}
+.contacts-header {
+background : #073953;
+}
+.logo {
+width : 56px;
+height : 79px;
+padding-left : 20px;
+padding-top : 20px;
+}
+
+/*** Nav Bars ***/
+.topnav {
+float : right;
+font-family : Raleway;
+font-weight : 500;
+padding-top : 50px;
+padding-right: 13px;
+}
+.topnav a {
+text-decoration : none;
+color : white;
+padding-right : 25px;
+}
+.end {
+padding-right : 0 !important ;
+}
+.bottomnav {
+font-family : Raleway;
+font-weight : normal;
+background-color : #FF5A5F;
+padding-bottom : 62px;
+text-align : center;
+font-family : Raleway;
+font-size : 18px;
+line-height : 16px;
+}
+.bottomnav a {
+text-decoration : none;
+color : white;
+padding-right : 25px;
+}
+.contact-bottomnav {
+font-family : Raleway;
+font-weight : normal;
+background-color : #073953;
+padding-bottom : 62px;
+text-align : center;
+font-family : Raleway;
+font-size : 18px;
+line-height : 16px;
+color : white;
+}
+.contact-bottom a {
+text-decoration : none;
+color : white;
+padding-right : 25px;
+}
+.space {
+padding-bottom : 45px !important ;
+}
+
+/*** Images ***/
+.caseimage {
+width : 100%;
+}
+
+/*** Hero Sections ***/
+.hero {
+background : #007E8B;
+width : 100%;
+}
+.hero-contact {
+background : #073953;
+width : 100%;
+}
+.boxes {
+font-family : Montserrat;
+font-style : normal;
+font-weight : normal;
+font-size : 18px;
+line-height : 30px;
+padding-top : 226px;
+padding-left : 25px;
+width : 100%;
+color : white;
+}
+
+/*** Typography ***/
+h1 {
+font-family : Work Sans;
+font-style : normal;
+font-weight : 300;
+font-size : 64px;
+line-height : 50px;
+padding-left : 29px;
+padding-right : 29px;
+padding-top : 30px;
+padding-bottom : 25px;
+align-items : center;
+text-align : center;
+color : white;
+}
+h2 {
+font-family : Work Sans;
+font-weight : normal;
+font-size : 64px;
+line-height : 70px;
+display : flex;
+align-items : center;
+text-align : center;
+color : white;
+padding-left : 38px;
+padding-right : 38px;
+padding-bottom : 58px;
+}
+h3 {
+font-family : Cinzel;
+font-style : normal;
+font-weight : normal;
+font-size : 48px;
+line-height : 64px;
+padding-left : 29px;
+padding-right : 29px;
+padding-top : 130px;
+padding-bottom : 50px;
+align-items : center;
+text-align : center;
+color : white;
+}
+h5 {
+position : absolute;
+width : 298px;
+height : 107px;
+left : 38.5px;
+top : 99.72px;
+font-family : Raleway;
+font-style : normal;
+font-weight : normal;
+font-size : 40px;
+line-height : 53px;
+display : flex;
+align-items : center;
+text-align : center;
+color : white;
+padding-top : 100px;
+}
+.bold {
+font-weight : bold;
+}
+
+/*** Text ***/
+.welcome1 {
+padding-left : 39px;
+padding-right : 39px;
+padding-bottom : 28px;
+align-items : center;
+text-align : center;
+font-family : Raleway;
+font-style : normal;
+font-weight : 400;
+font-size : 20px;
+line-height : 30px;
+color : white;
+}
+.welcome {
+padding-bottom : 130px;
+padding-left : 39px;
+padding-right : 39px;
+align-items : center;
+text-align : center;
+font-family : Raleway;
+font-style : normal;
+font-weight : 400;
+font-size : 20px;
+line-height : 30px;
+color : white;
+}
+.caspian {
+background : #073953;
+width : 100%;
+}
+.intro {
+padding-bottom : 50px;
+padding-left : 39px;
+padding-right : 39px;
+align-items : center;
+text-align : center;
+font-family : Raleway;
+font-style : normal;
+font-weight : normal;
+font-size : 24px;
+line-height : 36px;
+color : white;
+}
+.final {
+background-color : #FF5A5F;
+padding-top : 160px;
+padding-bottom : 325px;
+color : white;
+font-family : Raleway;
+font-style : normal;
+font-weight : normal;
+font-size : 20px;
+line-height : 37px;
+text-align : center;
+}
+.contact {
+position : absolute;
+text-decoration : none;
+top : 2080px;
+color : white;
+width : 150px;
+height : 50px;
+left : 112px;
+font-family : Raleway;
+font-style : normal;
+font-weight : normal;
+font-size : 20px;
+line-height : 16px;
+align-items : center;
+text-align : center;
+background-color : #007E8B;
+border : none;
+display : inline-block;
+border-radius : 12px;
+padding-top : 18px;
+}
+
+/*** Buttons ***/
+.contact {
+padding-top : 20px;
+}
+.viewcase {
+position : absolute;
+text-decoration : none;
+color : white;
+width : 150px;
+height : 50px;
+left : 112px;
+font-family : Raleway;
+font-style : normal;
+font-weight : normal;
+font-size : 20px;
+line-height : 16px;
+align-items : center;
+text-align : center;
+background-color : #007E8B;
+border : none;
+display : inline-block;
+border-radius : 12px;
+padding-top : 18px;
+}
+
+.submit-button {
+  position : absolute;
+  text-decoration : none;
+  color : white;
+  width : 150px;
+  height : 50px;
+  left : 112px;
+  font-family : Raleway;
+  font-style : normal;
+  font-weight : normal;
+  font-size : 20px;
+  line-height : 16px;
+  align-items : center;
+  text-align : center;
+  background-color : #007E8B;
+  border : none;
+  display : inline-block;
+  border-radius : 12px;
+  padding-top : 18px;
+  }
