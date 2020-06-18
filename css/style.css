@@ -9,16 +9,42 @@ font-family: 'Work Sans', sans-serif;*/
 /*** Header ***/
 header {
 background : #007E8B;
+background-image: url(../images/BackgroundLines.png);
+background-position: center;
+background-repeat: repeat-y;
 width : 100%;
 }
+.topbar{
+background : #007E8B;
+background-image: url(../images/BackgroundLines.png);
+background-position: center;
+background-repeat: repeat-y;
+width : 100%;
+}
+
 .contacts-header {
 background : #073953;
+background-image: url(../images/BackgroundLines.png);
+background-position: center;
+background-repeat: repeat-y;
+width : 100%;
 }
 .logo {
 width : 56px;
 height : 79px;
 padding-left : 20px;
 padding-top : 20px;
+}
+
+.about-page{
+left: 38px;
+right: 38px;
+background : #007E8B;
+background-image: url(../images/BackgroundLines.png);
+background-position: center;
+background-repeat: repeat-y;
+width : 100%;
+
 }
 
 /*** Nav Bars ***/
@@ -41,7 +67,12 @@ padding-right : 0 !important ;
 font-family : Raleway;
 font-weight : normal;
 background-color : #FF5A5F;
+background-image: url(../images/BackgroundLines.png);
+background-position: center;
+background-repeat: repeat-y;
+width : 100%;
 padding-bottom : 62px;
+padding-top: 76px;
 text-align : center;
 font-family : Raleway;
 font-size : 18px;
@@ -56,7 +87,12 @@ padding-right : 25px;
 font-family : Raleway;
 font-weight : normal;
 background-color : #073953;
-padding-bottom : 62px;
+background-image: url(../images/BackgroundLines.png);
+background-position: center;
+background-repeat: repeat-y;
+width : 100%;
+padding-bottom :90px;
+padding-top: 90px;
 text-align : center;
 font-family : Raleway;
 font-size : 18px;
@@ -68,6 +104,9 @@ text-decoration : none;
 color : white;
 padding-right : 25px;
 }
+.about-bottomnav{
+  padding-top: 980px;
+}
 .space {
 padding-bottom : 45px !important ;
 }
@@ -76,14 +115,45 @@ padding-bottom : 45px !important ;
 .caseimage {
 width : 100%;
 }
+.about-image{
+position:relative;
+width: 317.21px;
+height: 237.91px;
+left: 26.28px;
+top: 350px;
+background: url(IMG_8407.jpg);
+border-radius: 25px;
+}
 
 /*** Hero Sections ***/
 .hero {
 background : #007E8B;
+background-image: url(../images/BackgroundLines.png);
+background-position: center;
+background-repeat: repeat-y;
 width : 100%;
 }
+
 .hero-contact {
 background : #073953;
+background-image: url(../images/BackgroundLines.png);
+background-position: center;
+background-repeat: repeat-y;
+width : 100%;
+}
+
+.blue{
+background : #073953;
+background-image: url(../images/BackgroundLines.png);
+background-position: center;
+background-repeat: repeat-y;
+width : 100%;
+}
+.teal{
+background: #007E8B;
+background-image: url(../images/BackgroundLines.png);
+background-position: center;
+background-repeat: repeat-y;
 width : 100%;
 }
 .boxes {
@@ -97,10 +167,20 @@ padding-left : 25px;
 width : 100%;
 color : white;
 }
+.message{
+  width: 307px;
+height: 150px;
+box-sizing: border-box;
+background-color: white;
+resize: none;
+padding-top: 35px;
+padding-bottom: 35px;
+}
+
 
 /*** Typography ***/
 h1 {
-font-family : Work Sans;
+font-family : "Work Sans";
 font-style : normal;
 font-weight : 300;
 font-size : 64px;
@@ -114,7 +194,7 @@ text-align : center;
 color : white;
 }
 h2 {
-font-family : Work Sans;
+font-family : "Work Sans";
 font-weight : normal;
 font-size : 64px;
 line-height : 70px;
@@ -140,6 +220,18 @@ align-items : center;
 text-align : center;
 color : white;
 }
+h4{
+position: absolute;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 45px;
+display: flex;
+text-align: center;
+color: white;
+}
+
 h5 {
 position : absolute;
 width : 298px;
@@ -160,7 +252,105 @@ padding-top : 100px;
 .bold {
 font-weight : bold;
 }
-
+.about-para{
+position: absolute;
+width: 298.99px;
+height: 198.38px;
+left: 38px;
+top: 200px;
+right: 38px;
+color: white;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+text-align: left;
+display: flex;
+align-items: center;
+letter-spacing: -0.0141176em;
+color: white;
+padding-top: 15px;
+padding-bottom: 10px;
+}
+.background-para{
+position: absolute;
+width: 298.09px;
+top: 740px;
+left: 38.45px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+display: flex;
+align-items: center;
+letter-spacing: -0.0141176em;
+padding-top: 0px;
+color:white;
+}
+.background-para2{
+position: absolute;
+width: 298.09px;
+left: 38.45px;
+top: 1490px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+display: flex;
+align-items: center;
+letter-spacing: -0.0141176em;
+color:white;
+}
+.why-design-para{
+position: absolute;
+width: 298px;
+height: 398.25px;
+left: 38.45px;
+top: 2690px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+color: white;
+}
+.complex{
+position: absolute;
+width: 301.5px;
+height: 46px;
+left: 36.75px;
+top: 110.76px;
+padding-top: 10px;
+}
+.about-background{
+position: absolute;
+width: 147px;
+height: 22px;
+left: 36.75px;
+top: 680px;
+}
+.why-design{
+padding-top: 2270px;
+padding-left: 38.45px;
+}
+.about-please{
+position: absolute;
+width: 298px;
+height: 224px;
+left: 38.5px;
+top: 3200px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 32px;
+display: flex;
+align-items: center;
+color: white
+}
 /*** Text ***/
 .welcome1 {
 padding-left : 39px;
@@ -188,8 +378,12 @@ font-size : 20px;
 line-height : 30px;
 color : white;
 }
+
 .caspian {
 background : #073953;
+background-image: url(../images/BackgroundLines.png);
+background-position: center;
+background-repeat: repeat-y;
 width : 100%;
 }
 .intro {
@@ -207,6 +401,10 @@ color : white;
 }
 .final {
 background-color : #FF5A5F;
+background-image: url(../images/BackgroundLines.png);
+background-position: center;
+background-repeat: repeat-y;
+width : 100%;
 padding-top : 160px;
 padding-bottom : 325px;
 color : white;
@@ -220,7 +418,7 @@ text-align : center;
 .contact {
 position : absolute;
 text-decoration : none;
-top : 2080px;
+top : 5000px;
 color : white;
 width : 150px;
 height : 50px;
@@ -233,15 +431,34 @@ line-height : 16px;
 align-items : center;
 text-align : center;
 background-color : #007E8B;
+background-image: url(../images/BackgroundLines.png);
+background-position: center;
+background-repeat: repeat-y;
 border : none;
 display : inline-block;
 border-radius : 12px;
 padding-top : 18px;
 }
 
+
+
 /*** Buttons ***/
 .contact {
 padding-top : 20px;
+}
+.about-contact{
+text-decoration : none;
+top: 3500px;
+background: #FF5A5F;
+box-sizing: border-box;
+border-radius: 10px;
+color : white;
+padding-bottom: 30px;
+font-family: Raleway;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 16px;
 }
 .viewcase {
 position : absolute;
@@ -258,6 +475,9 @@ line-height : 16px;
 align-items : center;
 text-align : center;
 background-color : #007E8B;
+background-image: url(../images/BackgroundLines.png);
+background-position: center;
+background-repeat: repeat-y;
 border : none;
 display : inline-block;
 border-radius : 12px;
@@ -265,22 +485,61 @@ padding-top : 18px;
 }
 
 .submit-button {
-  position : absolute;
-  text-decoration : none;
-  color : white;
-  width : 150px;
-  height : 50px;
-  left : 112px;
-  font-family : Raleway;
-  font-style : normal;
-  font-weight : normal;
-  font-size : 20px;
-  line-height : 16px;
-  align-items : center;
-  text-align : center;
-  background-color : #007E8B;
-  border : none;
-  display : inline-block;
-  border-radius : 12px;
-  padding-top : 18px;
+padding-top : 7px;
+position : absolute;
+text-decoration : none;
+color : white;
+width : 150px;
+height : 50px;
+left : 112px;
+font-family : Raleway;
+font-style : normal;
+font-weight : normal;
+font-size : 20px;
+line-height : 16px;
+align-items : center;
+text-align : center;
+background-color : #007E8B;
+background-image: url(../images/BackgroundLines.png);
+background-position: center;
+background-repeat: repeat-y;
+border : none;
+display : inline-block;
+border-radius : 12px;
   }
+
+
+
+  /* Desktop version
+  .topbar{
+    height: 100px;
+  }
+
+  .logo{
+    display: inline-block;
+    position: absolute;
+  width: 90px;
+  height: 128px;
+  left: 18px;
+  top: 35px;
+  padding: 35px 0px 0px 18px;
+  }
+
+  .topnav{
+    transform: rotate(90deg);
+    position: absolute;
+  width: 335px;
+  height: 16px;
+  left: 1000px;
+  top: 200px;
+
+  color: white;
+  padding: 90px 29px 0px 0px;
+  }
+
+  .topnav a{
+    text-decoration: none;
+    padding-right: 72px;
+  }
+
+  End Desktop version*/
