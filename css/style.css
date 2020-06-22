@@ -71,18 +71,19 @@ background-image: url(../images/BackgroundLines.png);
 background-position: center;
 background-repeat: repeat-y;
 width : 100%;
-padding-bottom : 62px;
-padding-top: 76px;
+padding-bottom : 50px;
 text-align : center;
 font-family : Raleway;
 font-size : 18px;
 line-height : 16px;
 }
 .bottomnav a {
+top: 300px;
 text-decoration : none;
 color : white;
 padding-right : 25px;
 }
+
 .contact-bottomnav {
 font-family : Raleway;
 font-weight : normal;
@@ -91,8 +92,8 @@ background-image: url(../images/BackgroundLines.png);
 background-position: center;
 background-repeat: repeat-y;
 width : 100%;
-padding-bottom :90px;
-padding-top: 90px;
+padding-bottom :60px;
+padding-top: 40px;
 text-align : center;
 font-family : Raleway;
 font-size : 18px;
@@ -105,15 +106,19 @@ color : white;
 padding-right : 25px;
 }
 .about-bottomnav{
-  padding-top: 980px;
+padding-top: 980px;
 }
 .space {
-padding-bottom : 45px !important ;
+padding-bottom : 45px ;
+padding-left: 33px;
+padding-right: 33px;
 }
 
 /*** Images ***/
 .caseimage {
 width : 100%;
+left: 40px;
+top: 250px;
 }
 .about-image{
 position:relative;
@@ -124,7 +129,93 @@ top: 350px;
 background: url(IMG_8407.jpg);
 border-radius: 25px;
 }
+.google{
+width: 50%;
+}
+.icon{
+position: absolute;
+width: 80px;
+height: 72.86px;
+}
+.persona{
+position: absolute;
+width: 140px;
+height: 139.21px;
+}
+.flow-1{
+position: absolute;
+width: 72.3px;
+height: 98.49px;
+}
+.flow-2{
+position: absolute;
+width: 113.85px;
+height: 67.81px;
+}
+.flow-3{
+position: absolute;
+width: 104.4px;
+height: 81.82px;
+}
+.wireframe{
+position: absolute;
+width: 290px;
+height: 290px;
+}
+.cloud{
+position: absolute;
+width: 290px;
+height: 163.08px;
+}
+.color{
+position: absolute;
+width: 120px;
+height: 120px;
+}
 
+.casp-logo{
+position: absolute;
+width: 174.81px;
+height: 270.29px;
+}
+.sketch{
+position: absolute;
+width: 157.46px;
+height: 201px;
+}
+.sketch-1{
+position: absolute;
+width: 137.8px;
+height: 201px;
+}
+.sketch-2{
+position: absolute;
+width: 68.58px;
+height: 71.4px;
+}
+.sketch-3{
+position: absolute;
+width: 177.75px;
+height: 113.88px;
+top: 30px;
+}
+
+.typo{
+position: absolute;
+width: 290px;
+height: 221.53px;
+left: 42.5px;
+}
+.mock{
+position: absolute;
+width: 290px;
+height: 187.54px;
+}
+.dashboard{
+position: absolute;
+width: 290px;
+height: 290px;
+}
 /*** Hero Sections ***/
 .hero {
 background : #007E8B;
@@ -133,7 +224,73 @@ background-position: center;
 background-repeat: repeat-y;
 width : 100%;
 }
+.casp-hero{
+position: absolute;
+width: 50px;
+height: 16px;
+left: 20px;
+top: 100px;
+display: flex;
+align-items: center;
+text-align: center;
+}
 
+.peony1{
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+}
+
+.peony1 img{
+width: 50%;
+}
+.peony2{
+display: flex;
+flex-direction: row-reverse;
+justify-content: flex-end;
+}
+.peony2 img{
+width: 50%;
+}
+.peony3{
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+}
+.peony3 img{
+position: absolute;
+width: 181.91px;
+height: 127.63px;
+left: 193.09px;
+top: 1557px;
+width: 50%;
+}
+.peony4{
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+
+}
+
+.peony4 img{
+position: absolute;
+width: 176.39px;
+height: 191.17px;
+left: 0px;
+top: 2230px;
+width: 50%;
+}
+.peony5{
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+}
+
+.peony5 img{
+position: absolute;
+top : 3475px;
+width: 50%;
+}
 .hero-contact {
 background : #073953;
 background-image: url(../images/BackgroundLines.png);
@@ -156,6 +313,13 @@ background-position: center;
 background-repeat: repeat-y;
 width : 100%;
 }
+.pink{
+background: #FF5A5F;
+background-image: url(../images/BackgroundLines.png);
+background-position: center;
+background-repeat: repeat-y;
+width : 100%;
+}
 .boxes {
 font-family : Montserrat;
 font-style : normal;
@@ -168,7 +332,7 @@ width : 100%;
 color : white;
 }
 .message{
-  width: 307px;
+width: 307px;
 height: 150px;
 box-sizing: border-box;
 background-color: white;
@@ -212,13 +376,22 @@ font-style : normal;
 font-weight : normal;
 font-size : 48px;
 line-height : 64px;
-padding-left : 29px;
-padding-right : 29px;
-padding-top : 130px;
-padding-bottom : 50px;
 align-items : center;
 text-align : center;
 color : white;
+}
+.h-3-space{
+  left: 50px;
+  padding-top: 85px;
+  padding-bottom: 20px;
+  font-family : Cinzel;
+  font-style : normal;
+  font-weight : normal;
+  font-size : 48px;
+  line-height : 64px;
+  align-items : center;
+  text-align : center;
+  color : white;
 }
 h4{
 position: absolute;
@@ -248,6 +421,85 @@ align-items : center;
 text-align : center;
 color : white;
 padding-top : 100px;
+}
+h6{
+font-family: Montserrat;
+left: 71px;
+top: 228.54px;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 16px;
+color: white;
+display: flex;
+align-items: center;
+text-align: center;
+}
+.titles{
+font-family: Raleway;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 35px;
+display: flex;
+align-items: center;
+color:white
+}
+.roles {
+position:absolute;
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+left: 30px;
+align-items: center;
+text-align: center;
+color:white;
+top: 100px;
+padding-left: 40px;
+}
+.user-names{
+position: absolute;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+align-items: center;
+color:white;
+}
+.user-head{
+position: absolute;
+font-family: Raleway;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+display: flex;
+align-items: center;
+color: white;
+}
+.brand-char{
+position: absolute;
+width: 290px;
+height: 126px;
+left: 42.5px;
+top: 10075.56px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+color: white;
+}
+.casp-hero{
+left: 82.14px;
+top: 185.32px;
 }
 .bold {
 font-weight : bold;
@@ -351,6 +603,85 @@ display: flex;
 align-items: center;
 color: white
 }
+.casp-background-1{
+background : #007E8B;
+background-image: url(../images/BackgroundLines.png);
+background-position: center;
+background-repeat: repeat-y;
+width : 100%;
+line-height: 190px;
+}
+.casp-background-2{
+background : #073953;
+background-image: url(../images/BackgroundLines.png);
+background-position: center;
+background-repeat: repeat-y;
+width : 100%;
+}
+.casp-background-3{
+background : #FF5A5F;
+background-image: url(../images/BackgroundLines.png);
+background-position: center;
+background-repeat: repeat-y;
+width : 100%;
+}
+.overview{
+position: absolute;
+width: 100%;
+padding-left: 120px;
+padding-right: 120px;
+height: 123px;
+top: 630px;
+display: flex;
+align-items: center;
+text-align: center;
+color:white;
+
+}
+.summary{
+position: absolute;
+width: 291.64px;
+height: 610.28px;
+left: 41.68px;
+top: 1812.8px;
+}
+.user-survey{
+position: absolute;
+width: 148px;
+height: 28px;
+left: 40.68px;
+top: 2563.78px;
+  }
+.casp-header{
+font-family: Raleway;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 35px;
+display: flex;
+align-items: center;
+color: white;
+position: absolute;
+}
+
+.disc{
+top: 2501.44px;
+}
+.more-space{
+  padding-top: 10px;
+  font-family: Montserrat;
+  top: 220px;
+  left: 70px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 16px;
+  position: absolute;
+  color: white;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
 /*** Text ***/
 .welcome1 {
 padding-left : 39px;
@@ -366,7 +697,6 @@ line-height : 30px;
 color : white;
 }
 .welcome {
-padding-bottom : 130px;
 padding-left : 39px;
 padding-right : 39px;
 align-items : center;
@@ -418,7 +748,7 @@ text-align : center;
 .contact {
 position : absolute;
 text-decoration : none;
-top : 5000px;
+top : 2150px;
 color : white;
 width : 150px;
 height : 50px;
@@ -439,20 +769,33 @@ display : inline-block;
 border-radius : 12px;
 padding-top : 18px;
 }
-
+.bigger{
+  font-size: 24px;
+}
 
 
 /*** Buttons ***/
 .contact {
 padding-top : 20px;
+padding-bottom: 0px;
+}
+.contact a{
+text-decoration : none;
+color: white;
+}
+.contact-first{
+top: 2150px;
+background: #007E8B;
+}
+.bio-contact{
+top: 3450px;
+background: #FF5A5F;
 }
 .about-contact{
-text-decoration : none;
-top: 3500px;
+top: 2400px;
 background: #FF5A5F;
 box-sizing: border-box;
 border-radius: 10px;
-color : white;
 padding-bottom: 30px;
 font-family: Raleway;
 font-style: normal;
@@ -460,10 +803,12 @@ font-weight: 500;
 font-size: 20px;
 line-height: 16px;
 }
+.about-contact a{
+text-decoration : none;
+color: white;
+}
 .viewcase {
 position : absolute;
-text-decoration : none;
-color : white;
 width : 150px;
 height : 50px;
 left : 112px;
@@ -483,7 +828,33 @@ display : inline-block;
 border-radius : 12px;
 padding-top : 18px;
 }
-
+.viewcase a{
+text-decoration : none;
+color : white;
+}
+.view-proto{
+  position : absolute;
+  width : 150px;
+  height : 50px;
+  left: 115px;
+  top: 540px;
+  font-family : Raleway;
+  font-style : normal;
+  font-weight : normal;
+  font-size : 20px;
+  line-height : 16px;
+  align-items : center;
+  text-align : center;
+  background-color : #FF5A5F;
+  border : none;
+  display : inline-block;
+  border-radius : 12px;
+  padding-top : 18px;
+}
+.view-proto a{
+text-decoration : none;
+color : white;
+}
 .submit-button {
 padding-top : 7px;
 position : absolute;
@@ -492,6 +863,7 @@ color : white;
 width : 150px;
 height : 50px;
 left : 112px;
+top: 690px;
 font-family : Raleway;
 font-style : normal;
 font-weight : normal;
@@ -507,6 +879,10 @@ border : none;
 display : inline-block;
 border-radius : 12px;
   }
+.TEST {
+padding-top: 2000px;
+  }
+
 
 
 
