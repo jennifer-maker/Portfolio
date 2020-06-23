@@ -291,6 +291,17 @@ position: absolute;
 top : 3475px;
 width: 50%;
 }
+.peony6{
+  display: flex;
+  flex-direction:row;
+  justify-content: flex-end;
+}
+.peony6 img{
+position: absolute;
+top : 1640px;
+width: 50%;
+left: 90px;
+}
 .hero-contact {
 background : #073953;
 background-image: url(../images/BackgroundLines.png);
@@ -446,18 +457,49 @@ align-items: center;
 color:white
 }
 .roles {
-position:absolute;
-font-family: Raleway;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 28px;
-left: 30px;
-align-items: center;
-text-align: center;
-color:white;
-top: 100px;
-padding-left: 40px;
+  position:absolute;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 35px;
+  left: 0px;
+  align-items: center;
+  text-align: center;
+  color:white;
+  top: 120px;
+}
+.roles2 {
+  position:absolute;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 35px;
+  left: 0px;
+  align-items: center;
+  text-align: center;
+  color:white;
+  top: 130px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.roles3 {
+  position:absolute;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 35px;
+  left: 0px;
+  align-items: center;
+  text-align: center;
+  color:white;
+  top: 520px;
+}
+.bold{
+    font-weight: bold;
+    font-size: 30px;
 }
 .user-names{
 position: absolute;
@@ -500,9 +542,6 @@ color: white;
 .casp-hero{
 left: 82.14px;
 top: 185.32px;
-}
-.bold {
-font-weight : bold;
 }
 .about-para{
 position: absolute;
@@ -617,6 +656,7 @@ background-image: url(../images/BackgroundLines.png);
 background-position: center;
 background-repeat: repeat-y;
 width : 100%;
+height: 1800px;
 }
 .casp-background-3{
 background : #FF5A5F;
@@ -643,7 +683,8 @@ position: absolute;
 width: 291.64px;
 height: 610.28px;
 left: 41.68px;
-top: 1812.8px;
+top: 2012.8px;
+color: white;
 }
 .user-survey{
 position: absolute;
@@ -662,8 +703,57 @@ display: flex;
 align-items: center;
 color: white;
 position: absolute;
+padding-bottom: 25px;
 }
+.casp-header-2{
+position: absolute;
+width: 125px;
+height: 123.01px;
+left: 155px;
+font-family: Raleway;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+display: flex;
+align-items: center;
+text-align: center;
+color:white;
+padding-top: 160px;
+padding-bottom: 60px;
+}
+.casp-header-3{
+position: absolute;
+width: 125px;
+height: 123.01px;
+left: 125px;
+font-family: Raleway;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+display: flex;
+align-items: center;
+text-align: center;
+color:white;
+padding-top: 500px;
 
+}
+.casp-header-4{
+position: absolute;
+width: 125px;
+height: 123.01px;
+left: 125px;
+font-family: Raleway;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+display: flex;
+align-items: center;
+text-align: center;
+color:white;
+}
 .disc{
 top: 2501.44px;
 }
