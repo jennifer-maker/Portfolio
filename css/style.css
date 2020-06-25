@@ -123,6 +123,10 @@ top: 250px;
 .caseimage-2 {
 width : 100%;
 }
+.caseimage-3 {
+width : 100%;
+padding-bottom: 50px;
+}
 .about-image{
 position:relative;
 width: 317.21px;
@@ -148,6 +152,35 @@ display: flex;
 align-items: center;
 color:white;
 }
+.icloud{
+  position: relative;
+  padding-left: 147px;
+  padding-top: 20px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  color:white;
+  top: 2840px;
+}
+.dropbox{
+  position: absolute;
+padding-top: 15px;
+padding-bottom: 30px;
+padding-left: 140px;
+top: 5320px;
+font-family: Raleway;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+display: flex;
+align-items: center;
+color:white;
+}
 .icon{
 position: absolute;
 width: 80px;
@@ -159,8 +192,14 @@ left: 148px;
 position: absolute;
 width: 80px;
 height: 72.86px;
-top: -40px;
+top: -55px;
 left: 148px;
+}
+.icon-3{
+  position: relative;
+  top: 3290px;
+  max-width: 80px;
+  left: 148px;
 }
 .persona{
 position: absolute;
@@ -249,7 +288,12 @@ top: 3775px;
 .dashboard-3{
 position: absolute;
 width: 290px;
-top: 4362px;
+top: 4332px;
+}
+.dashboard-4{
+position: absolute;
+width: 290px;
+top: 4900px;
 }
 /*** Hero Sections ***/
 .hero {
@@ -610,9 +654,25 @@ color:white;
 position: relative;
 width: 327px;
 height: 172px;
-top: 3050px;
+top: 3025px;
 padding-left: 24px;
-padding-top: 65px;
+padding-top: 90px;
+padding-bottom: 30px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+display: flex;
+align-items: center;
+color:white;
+}
+.comp-para-4{
+position: relative;
+width: 327px;
+height: 172px;
+top: 3370px;
+padding-left: 24px;
 padding-bottom: 30px;
 font-family: Montserrat;
 font-style: normal;
