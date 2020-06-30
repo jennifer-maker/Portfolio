@@ -5,6 +5,10 @@ font-family: 'Work Sans', sans-serif;*/
 *{
   box-sizing: border-box;
 }
+.body{
+
+  font-style: normal;
+}
 
 /*** Header ***/
 header {
@@ -332,32 +336,22 @@ justify-content: flex-end;
 width: 50%;
 }
 .peony3{
+bottom: 100px;
 display: flex;
 flex-direction: row;
 justify-content: flex-end;
 }
 .peony3 img{
-position: absolute;
-width: 181.91px;
-height: 127.63px;
-left: 193.09px;
-top: 1557px;
 width: 50%;
 }
 .peony4{
-display: flex;
-flex-direction: row;
-justify-content: flex-end;
-
+display: inline-flex;
+left: 0px;
 }
 
 .peony4 img{
-position: absolute;
-width: 176.39px;
-height: 191.17px;
-left: 0px;
-top: 2230px;
 width: 50%;
+
 }
 .peony5{
 display: flex;
@@ -1212,6 +1206,12 @@ background-position: center;
 background-repeat: repeat-y;
 width : 100%;
 }
+.case1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
 .intro {
 padding-bottom : 50px;
 padding-left : 39px;
@@ -1231,8 +1231,6 @@ background-image: url(../images/BackgroundLines.png);
 background-position: center;
 background-repeat: repeat-y;
 width : 100%;
-padding-top : 160px;
-padding-bottom : 325px;
 color : white;
 font-family : Raleway;
 font-style : normal;
@@ -1240,27 +1238,19 @@ font-weight : normal;
 font-size : 20px;
 line-height : 37px;
 text-align : center;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 .contact {
-position : absolute;
-text-decoration : none;
 top : 2150px;
-color : white;
 width : 150px;
 height : 50px;
-left : 112px;
-font-family : Raleway;
-font-style : normal;
-font-weight : normal;
 font-size : 20px;
 line-height : 16px;
 align-items : center;
 text-align : center;
 background-color : #007E8B;
-background-image: url(../images/BackgroundLines.png);
-background-position: center;
-background-repeat: repeat-y;
-border : none;
 display : inline-block;
 border-radius : 12px;
 padding-top : 18px;
@@ -1304,22 +1294,17 @@ text-decoration : none;
 color: white;
 }
 .viewcase {
-position : absolute;
 width : 150px;
 height : 50px;
-left : 112px;
 font-family : Raleway;
 font-style : normal;
-font-weight : normal;
 font-size : 20px;
-line-height : 16px;
-align-items : center;
 text-align : center;
 background-color : #007E8B;
-border : none;
-display : inline-block;
 border-radius : 12px;
 padding-top : 18px;
+margin-left: auto;
+margin-right: auto;
 }
 .viewcase a{
 text-decoration : none;
@@ -1369,43 +1354,3 @@ border : none;
 display : inline-block;
 border-radius : 12px;
   }
-.TEST {
-padding-top: 2000px;
-  }
-
-
-
-
-  /* Desktop version
-  .topbar{
-    height: 100px;
-  }
-
-  .logo{
-    display: inline-block;
-    position: absolute;
-  width: 90px;
-  height: 128px;
-  left: 18px;
-  top: 35px;
-  padding: 35px 0px 0px 18px;
-  }
-
-  .topnav{
-    transform: rotate(90deg);
-    position: absolute;
-  width: 335px;
-  height: 16px;
-  left: 1000px;
-  top: 200px;
-
-  color: white;
-  padding: 90px 29px 0px 0px;
-  }
-
-  .topnav a{
-    text-decoration: none;
-    padding-right: 72px;
-  }
-
-  End Desktop version*/
