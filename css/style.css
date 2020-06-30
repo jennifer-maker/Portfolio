@@ -6,8 +6,8 @@ font-family: 'Work Sans', sans-serif;*/
   box-sizing: border-box;
 }
 .body{
-
-  font-style: normal;
+  font-family: Raleway;
+  font-size: 10px;
 }
 
 /*** Header ***/
@@ -41,14 +41,18 @@ padding-top : 20px;
 }
 
 .about-page{
-left: 38px;
-right: 38px;
 background : #007E8B;
 background-image: url(../images/BackgroundLines.png);
 background-position: center;
 background-repeat: repeat-y;
 width : 100%;
-
+display: flex;
+flex-direction: column;
+align-items: center;
+font-family: Montserrat;
+font-weight: normal;
+font-size: 1em;
+line-height: 3em;
 }
 
 /*** Nav Bars ***/
@@ -64,9 +68,7 @@ text-decoration : none;
 color : white;
 padding-right : 25px;
 }
-.end {
-padding-right : 0 !important ;
-}
+
 .bottomnav {
 font-family : Raleway;
 font-weight : normal;
@@ -82,12 +84,13 @@ font-size : 18px;
 line-height : 16px;
 }
 .bottomnav a {
-top: 300px;
 text-decoration : none;
 color : white;
 padding-right : 25px;
 }
-
+.indexnav a{
+  padding-right: 0px;
+}
 .contact-bottomnav {
 font-family : Raleway;
 font-weight : normal;
@@ -110,7 +113,7 @@ color : white;
 padding-right : 25px;
 }
 .about-bottomnav{
-padding-top: 980px;
+  padding-top: 2em;
 }
 .space {
 padding-bottom : 45px ;
@@ -132,11 +135,8 @@ width : 100%;
 padding-bottom: 50px;
 }
 .about-image{
-position:relative;
-width: 317.21px;
 height: 237.91px;
 left: 26.28px;
-top: 350px;
 background: url(IMG_8407.jpg);
 border-radius: 25px;
 }
@@ -346,22 +346,30 @@ width: 50%;
 }
 .peony4{
 display: inline-flex;
-left: 0px;
+background-color : #FF5A5F;
+background-image: url(../images/BackgroundLines.png);
+background-position: center;
+background-repeat: repeat-y;
+width : 100%;
 }
 
 .peony4 img{
 width: 50%;
-
 }
 .peony5{
 display: flex;
 flex-direction: row;
 justify-content: flex-end;
+display: inline-flex;
+background-color : #007E8B;
+background-image: url(../images/BackgroundLines.png);
+background-position: center;
+background-repeat: repeat-y;
+width : 100%;
+z-index: 2;
 }
 
 .peony5 img{
-position: absolute;
-top : 3475px;
 width: 50%;
 }
 .peony6{
@@ -724,51 +732,30 @@ left: 82.14px;
 top: 185.32px;
 }
 .about-para{
-position: absolute;
-width: 298.99px;
-height: 198.38px;
-left: 38px;
-top: 200px;
-right: 38px;
-color: white;
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
+  width: 299px;
 line-height: 30px;
 text-align: left;
-display: flex;
-align-items: center;
 letter-spacing: -0.0141176em;
 color: white;
 padding-top: 15px;
 padding-bottom: 10px;
+align-items: center;
+padding-top: 1em;
 }
 .background-para{
-position: absolute;
-width: 298.09px;
-top: 740px;
-left: 38.45px;
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
+width: 299px;
+
 line-height: 30px;
 display: flex;
 align-items: center;
 letter-spacing: -0.0141176em;
-padding-top: 0px;
 color:white;
+padding-top: 3em;
 }
 .background-para2{
-position: absolute;
 width: 298.09px;
 left: 38.45px;
-top: 1490px;
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
+padding-top: 2em;
 line-height: 30px;
 display: flex;
 align-items: center;
@@ -776,51 +763,38 @@ letter-spacing: -0.0141176em;
 color:white;
 }
 .why-design-para{
-position: absolute;
 width: 298px;
-height: 398.25px;
 left: 38.45px;
-top: 2690px;
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 30px;
 color: white;
+line-height: 2em;
+padding-top: 3em;
 }
 .complex{
-position: absolute;
-width: 301.5px;
+width: 300px;
 height: 46px;
-left: 36.75px;
-top: 110.76px;
 padding-top: 10px;
 }
 .about-background{
-position: absolute;
-width: 147px;
-height: 22px;
-left: 36.75px;
-top: 680px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items:baseline;
 }
+
 .why-design{
-padding-top: 2270px;
 padding-left: 38.45px;
+padding-top: 2em;
 }
 .about-please{
-position: absolute;
 width: 298px;
-height: 224px;
 left: 38.5px;
-top: 3200px;
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 32px;
+font-size: 1.4em;
+line-height: 2em;
 display: flex;
 align-items: center;
-color: white
+padding-top:2em;
+padding-bottom: 1em;
+color: white;
 }
 .casp-background-1{
 background : #007E8B;
@@ -1272,9 +1246,9 @@ color: white;
 .contact-first{
 top: 2150px;
 background: #007E8B;
+align-items: center
 }
 .bio-contact{
-top: 3450px;
 background: #FF5A5F;
 }
 .about-contact{
