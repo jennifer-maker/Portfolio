@@ -558,11 +558,12 @@ h4 {
 	font-family: Montserrat;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 24px;
+	font-size: 25px;
 	line-height: 45px;
 	display: flex;
 	text-align: center;
 	color: white;
+
 }
 
 h5 {
@@ -817,9 +818,9 @@ h6 {
 }
 
 .complex {
-	width: 300px;
 	height: 46px;
-	padding-top: 10px;
+	padding-top: 2em;;
+  padding-bottom: 4em;
 }
 
 .about-background {
@@ -827,11 +828,12 @@ h6 {
 	display: flex;
 	flex-direction: column;
 	align-items: baseline;
+  padding-top: 1em;
 }
 
 .why-design {
 	width: 19em;
-	padding-top: 1em;
+	padding-top: 2em;
 }
 
 .about-please {
