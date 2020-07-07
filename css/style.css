@@ -123,7 +123,8 @@ padding-right: 33px;
 
 /*** Images ***/
 .caseimage {
-  align-items: center;
+  width : 100%;
+  padding-bottom: 4em;
 }
 .caseimage-2 {
 width : 100%;
@@ -278,9 +279,8 @@ width: 290px;
 height: 187.54px;
 }
 .dashboard{
-position: absolute;
-width: 290px;
-height: 290px;
+  display : flex;
+align-items: center;
 }
 .dashboard-2{
 position: absolute;
@@ -376,12 +376,10 @@ top: -1px;
   display: flex;
   flex-direction:row;
   justify-content: flex-end;
+  padding-top: 1em;
 }
 .peony6 img{
-position: absolute;
-top : 1680px;
 width: 50%;
-left: 90px;
 z-index: inherit;
 }
 .peony7{
@@ -489,9 +487,9 @@ color : white;
 }
 .h-3-space{
   align-items: center;
+  padding-top: 2em;
 }
 h4{
-position: absolute;
 font-family: Montserrat;
 font-style: normal;
 font-weight: normal;
@@ -503,7 +501,6 @@ color: white;
 }
 
 h5 {
-position : absolute;
 width : 298px;
 height : 107px;
 left : 38.5px;
@@ -528,7 +525,6 @@ font-weight: normal;
 font-size: 18px;
 line-height: 16px;
 color: white;
-display: flex;
 align-items: center;
 text-align: center;
 }
@@ -544,7 +540,6 @@ color:white;
 padding-left: 20px;
 }
 .roles {
-  position:absolute;
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
@@ -557,45 +552,27 @@ padding-left: 20px;
   top: 120px;
 }
 .roles2 {
-  position:absolute;
   font-family: Montserrat;
-  font-style: normal;
-  font-weight: normal;
   font-size: 18px;
-  line-height: 35px;
-  left: 0px;
-  align-items: center;
-  text-align: center;
-  color:white;
-  top: 130px;
-  padding-top: 10px;
-  padding-bottom: 25px;
+  line-height: 1.6em;
 }
 .roles3 {
-  position:absolute;
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 35px;
-  left: 0px;
-  align-items: center;
+  line-height: 1.6em;
+align-items: center;
   text-align: center;
   color:white;
-  top: 330px;
 }
 .roles4 {
-  position:absolute;
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 35px;
-  left: 0px;
-  align-items: center;
-  text-align: center;
+  line-height: 1.6em;
   color:white;
-  top: 790px;
 }
 .comp-head{
 position: relative;
@@ -726,42 +703,35 @@ left: 82.14px;
 top: 185.32px;
 }
 .about-para{
-  width: 299px;
+  width: 19em;
 line-height: 30px;
 text-align: left;
-letter-spacing: -0.0141176em;
 color: white;
-padding-top: 15px;
 padding-bottom: 10px;
 align-items: center;
 padding-top: 1em;
 }
 .background-para{
-width: 299px;
-
+width: 19em;
 line-height: 30px;
 display: flex;
 align-items: center;
-letter-spacing: -0.0141176em;
 color:white;
-padding-top: 3em;
+padding-top: 1em;
 }
 .background-para2{
-width: 298.09px;
-left: 38.45px;
+width: 19em;
 padding-top: 2em;
 line-height: 30px;
 display: flex;
 align-items: center;
-letter-spacing: -0.0141176em;
 color:white;
 }
 .why-design-para{
-width: 298px;
-left: 38.45px;
+width: 19em;
 color: white;
 line-height: 2em;
-padding-top: 3em;
+padding-top: 1em;
 }
 .complex{
 width: 300px;
@@ -769,24 +739,23 @@ height: 46px;
 padding-top: 10px;
 }
 .about-background{
-  width: 300px;
+  width: 19em;
   display: flex;
   flex-direction: column;
   align-items:baseline;
 }
 
 .why-design{
-padding-left: 38.45px;
-padding-top: 2em;
+  width: 19em;
+padding-top: 1em;
 }
 .about-please{
-width: 298px;
-left: 38.5px;
+width: 14em;
 font-size: 1.4em;
 line-height: 2em;
 display: flex;
 align-items: center;
-padding-top:2em;
+padding-top:1em;
 padding-bottom: 1em;
 color: white;
 }
@@ -797,6 +766,7 @@ background-position: center;
 background-repeat: repeat-y;
 width : 100%;
 align-items: center;
+text-align: center;
 }
 .casp-background-2{
 background : #073953;
@@ -804,7 +774,10 @@ background-image: url(../images/BackgroundLines.png);
 background-position: center;
 background-repeat: repeat-y;
 width : 100%;
-height: 1200px;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
 }
 .casp-background-3{
 background : #FF5A5F;
@@ -822,24 +795,17 @@ width : 100%;
 height:inherit;
 }
 .overview{
-position: absolute;
-width: 100%;
-padding-left: 120px;
-padding-right: 120px;
-height: 135px;
-top: 630px;
 display: flex;
 align-items: center;
 text-align: center;
 color:white;
-
+padding-top: 3em;
 }
 .summary{
-position: absolute;
-width: 291.64px;
-height: 610.28px;
-left: 41.68px;
-top: 1820px;
+  display: flex;
+  text-align: left;
+  align-items: center;
+  width: 12em;
 color: white;
 }
 .user-survey{
@@ -966,67 +932,40 @@ font-family: Raleway;
 font-style: normal;
 font-weight: 500;
 font-size: 30px;
-line-height: 35px;
 display: flex;
 align-items: center;
-color: white;
-position: absolute;
+text-align: center;
 padding-bottom: 25px;
 }
 .casp-header-2{
-position: absolute;
-width: 125px;
-height: 123.01px;
-left: 155px;
 font-family: Raleway;
-font-style: normal;
 font-weight: 500;
 font-size: 24px;
-line-height: 28px;
 display: flex;
+flex-direction: column;
 align-items: center;
 text-align: center;
 color:white;
-padding-top: 160px;
-padding-bottom: 60px;
+padding-top: 1em;
+padding-bottom: .5em;
 }
 .casp-header-3{
-position: absolute;
-width: 125px;
-height: 123.01px;
-left: 120px;
 font-family: Raleway;
 font-style: normal;
 font-weight: 500;
 font-size: 24px;
-line-height: 28px;
-display: flex;
-align-items: center;
-text-align: center;
-color:white;
-padding-top: 470px;
-
+padding-top: 2em;
+padding-bottom: .5em;
 }
 .casp-header-4{
-position: absolute;
-left: 158px;
-height: 123.01px;
 font-family: Raleway;
 font-style: normal;
 font-weight: 500;
 font-size: 24px;
-line-height: 28px;
-display: flex;
-align-items: center;
-text-align: center;
-color:white;
-top: 700px;
+padding-top: 2em;
+padding-bottom: .5em;
 }
 .summary-head-1{
-  position: absolute;
-  width: 125px;
-  height: 123.01px;
-  left: 5px;
   font-family: Raleway;
   font-style: normal;
   font-weight: 500;
@@ -1034,16 +973,11 @@ top: 700px;
   line-height: 28px;
   display: flex;
   align-items: center;
-  text-align: center;
+  text-align:left;
   color:white;
-  top: 10px;
-
+width: 12em;
 }
 .summary-head-2{
-  position: absolute;
-  width: 125px;
-  height: 123.01px;
-  left: 5px;
   font-family: Raleway;
   font-style: normal;
   font-weight: 500;
@@ -1051,7 +985,7 @@ top: 700px;
   line-height: 28px;
   display: flex;
   align-items: center;
-  text-align: center;
+  text-align: left;
   color:white;
   top: 250px;
 }
@@ -1126,13 +1060,14 @@ background-repeat: repeat-y;
 width : 100%;
 }
 .more-space{
-  padding-top: 1em;
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 16px;
   color: white;
+  align-items: center;
+  text-align: center !important;
 
 }
 /*** Text ***/
