@@ -141,7 +141,7 @@ header {
 
 .caseimage {
 	width: 100%;
-	padding-bottom: 4em;
+  padding-bottom: 2em;
 }
 
 .caseimage-2 {
@@ -193,11 +193,8 @@ header {
 }
 
 .dropbox {
-	position: absolute;
 	padding-top: 15px;
 	padding-bottom: 30px;
-	padding-left: 140px;
-	top: 5320px;
 	font-family: Raleway;
 	font-style: normal;
 	font-weight: 500;
@@ -209,110 +206,85 @@ header {
 }
 
 .icon {
-	position: absolute;
 	width: 80px;
 	height: 72.86px;
-	top: 4100px;
-	left: 148px;
 }
 
 .icon-2 {
-	position: absolute;
 	width: 80px;
 	height: 72.86px;
-	top: -55px;
-	left: 148px;
 }
 
 .icon-3 {
-	position: relative;
-	top: 3290px;
 	max-width: 80px;
-	left: 148px;
 }
 
 .persona {
-	position: absolute;
 	width: 140px;
 	height: 139.21px;
 }
 
 .flow-1 {
-	position: absolute;
 	width: 72.3px;
 	height: 98.49px;
 }
 
 .flow-2 {
-	position: absolute;
 	width: 113.85px;
 	height: 67.81px;
 }
 
 .flow-3 {
-	position: absolute;
 	width: 104.4px;
 	height: 81.82px;
 }
 
 .wireframe {
-	position: absolute;
 	width: 290px;
 	height: 290px;
 }
 
 .cloud {
-	position: absolute;
 	width: 290px;
 	height: 163.08px;
 }
 
 .color {
-	position: absolute;
 	width: 120px;
 	height: 120px;
 }
 
 .casp-logo {
-	position: absolute;
 	width: 174.81px;
 	height: 270.29px;
 }
 
 .sketch {
-	position: absolute;
 	width: 157.46px;
 	height: 201px;
 }
 
 .sketch-1 {
-	position: absolute;
 	width: 137.8px;
 	height: 201px;
 }
 
 .sketch-2 {
-	position: absolute;
 	width: 68.58px;
 	height: 71.4px;
 }
 
 .sketch-3 {
-	position: absolute;
 	width: 177.75px;
 	height: 113.88px;
-	top: 30px;
 }
 
 .typo {
-	position: absolute;
 	width: 290px;
 	height: 221.53px;
-	left: 42.5px;
 }
 
 .mock {
-	position: absolute;
 	width: 290px;
 	height: 187.54px;
 }
@@ -323,21 +295,15 @@ header {
 }
 
 .dashboard-2 {
-	position: absolute;
 	width: 290px;
-	top: 3775px;
 }
 
 .dashboard-3 {
-	position: absolute;
 	width: 290px;
-	top: 4332px;
 }
 
 .dashboard-4 {
-	position: absolute;
 	width: 290px;
-	top: 4900px;
 }
 
 
@@ -352,11 +318,9 @@ header {
 }
 
 .casp-hero {
-	position: absolute;
 	width: 50px;
 	height: 16px;
 	left: 20px;
-	top: 100px;
 	display: flex;
 	align-items: center;
 	text-align: center;
@@ -436,17 +400,8 @@ header {
 	z-index: inherit;
 }
 
-.peony7 {
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-end;
-}
 
-.peony7 img {
-	position: absolute;
-	top: 3350px;
-	width: 50%;
-}
+
 
 .hero-contact {
 	background: #073953;
@@ -645,37 +600,22 @@ h6 {
 }
 
 .comp-head {
-	position: relative;
-	width: 245px;
-	height: 28px;
-	top: 2380px;
-	padding-bottom: 10px;
-	padding-left: 44px;
+  padding-top: 1em;
+	padding-bottom: 1em;
 	font-family: Raleway;
-	font-style: normal;
 	font-weight: 600;
 	font-size: 24px;
-	line-height: 28px;
-	display: flex;
-	align-items: center;
-	text-align: center;
 	color: white;
 }
 
 .comp-para-1 {
-	position: relative;
-	width: 290px;
-	height: 215.96px;
-	padding-left: 42.5px;
-	padding-top: 10px;
-	top: 2345px;
+  width: 14em;
+	padding-top: 1em;
 	font-family: Montserrat;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 18px;
 	line-height: 24px;
-	display: flex;
-	align-items: center;
 	color: white;
 }
 
@@ -733,11 +673,10 @@ h6 {
 
 .bold {
 	font-weight: bold;
-	font-size: 30px;
+	font-size: 20px;
 }
 
 .user-names {
-	position: absolute;
 	font-family: Montserrat;
 	font-style: normal;
 	font-weight: normal;
@@ -749,7 +688,6 @@ h6 {
 }
 
 .user-head {
-	position: absolute;
 	font-family: Raleway;
 	font-style: normal;
 	font-weight: 600;
@@ -761,11 +699,7 @@ h6 {
 }
 
 .brand-char {
-	position: absolute;
-	width: 290px;
-	height: 126px;
-	left: 42.5px;
-	top: 10075.56px;
+
 	font-family: Montserrat;
 	font-style: normal;
 	font-weight: normal;
@@ -934,7 +868,6 @@ h6 {
 	font-size: 18px;
 	line-height: 22px;
 	color: white;
-	padding-bottom: 2em;
 }
 
 .survey-head {
@@ -945,6 +878,8 @@ h6 {
 	line-height: 22px;
 	color: white;
 	width: 16em;
+  padding-top: 2em;
+  padding-bottom: .7em;
 }
 
 .surv-1 {
@@ -1066,6 +1001,7 @@ h6 {
 	color: white;
 	align-items: center;
 	text-align: center !important;
+  padding-top: 1em;
 }
 
 
@@ -1227,11 +1163,8 @@ h6 {
 }
 
 .view-proto {
-	position: absolute;
 	width: 150px;
 	height: 50px;
-	left: 115px;
-	top: 540px;
 	font-family: Raleway;
 	font-style: normal;
 	font-weight: normal;
@@ -1267,4 +1200,13 @@ h6 {
 	align-items: center;
 	-ms-transform: translate(-50%, -50%);
 	transform: translate(50%, 50%);
+}
+.peony7 {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+.peony7 img {
+	width: 50%;
 }
