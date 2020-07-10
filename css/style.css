@@ -79,7 +79,7 @@ header {
 }
 
 .bottomnav {
-	font-family: Raleway;
+  font-family: Raleway;
 	font-weight: normal;
 	background-color: #FF5A5F;
 	background-image: url(../images/BackgroundLines.png);
@@ -87,6 +87,7 @@ header {
 	background-repeat: repeat-y;
 	width: 100%;
 	padding-bottom: 50px;
+  padding-top: 1em;
 	text-align: center;
 	font-family: Raleway;
 	font-size: 18px;
@@ -94,9 +95,10 @@ header {
 }
 
 .bottomnav a {
-	text-decoration: none;
-	color: white;
-	padding-right: 25px;
+  text-decoration: none;
+  color: white;
+  padding-right: 25px;
+  padding-left: 0px;
 }
 
 .indexnav a {
@@ -127,6 +129,8 @@ header {
 }
 
 .about-bottomnav {
+  position: absolute;
+  z-index: 3;
 	padding-top: 2em;
 }
 
@@ -141,7 +145,6 @@ header {
 
 .caseimage {
 	width: 100%;
-  padding-bottom: 2em;
 }
 
 .caseimage-2 {
@@ -149,8 +152,7 @@ header {
 }
 
 .caseimage-3 {
-	width: 100%;
-	padding-bottom: 50px;
+	width: 8em;
 }
 
 .about-image {
@@ -160,88 +162,77 @@ header {
 	border-radius: 25px;
 }
 
-.google {
-	position: relative;
-	width: 82px;
+.icon-name {
+  padding-top: 1em;
+  padding-bottom: 1em;
 	height: 28px;
-	padding-left: 147px;
-	padding-top: 50px;
-	top: 2680px;
 	font-family: Raleway;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 24px;
 	line-height: 28px;
 	display: flex;
-	align-items: center;
-	color: white;
-}
-
-.icloud {
-	position: relative;
-	padding-left: 147px;
-	padding-top: 20px;
-	font-family: Raleway;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 24px;
-	line-height: 28px;
-	display: flex;
-	align-items: center;
-	color: white;
-	top: 2840px;
-}
-
-.dropbox {
-	padding-top: 15px;
-	padding-bottom: 30px;
-	font-family: Raleway;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 24px;
-	line-height: 28px;
-	display: flex;
+  flex-direction: column;
 	align-items: center;
 	color: white;
 }
 
 .icon {
-	width: 80px;
-	height: 72.86px;
-}
-
-.icon-2 {
-	width: 80px;
-	height: 72.86px;
-}
-
-.icon-3 {
 	max-width: 80px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0px;
 }
+
 
 .persona {
-	width: 140px;
-	height: 139.21px;
+	width: 50%;
+  align-items: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
-.flow-1 {
-	width: 72.3px;
-	height: 98.49px;
+.extra-space {
+  padding-bottom: 1.5em;
 }
 
-.flow-2 {
-	width: 113.85px;
-	height: 67.81px;
+.quote {
+  font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+display: flex;
+align-items: center;
+text-align: center;
+width: 17em;
+color:white;
+padding-bottom: 1em;
 }
 
-.flow-3 {
-	width: 104.4px;
-	height: 81.82px;
+.quote-it {
+  font-family: Montserrat;
+font-style: italic;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+display: flex;
+align-items: center;
+text-align: center;
+width: 17em;
+color:white;
+padding-bottom: 1em;
 }
+
+
+
+
 
 .wireframe {
-	width: 290px;
-	height: 290px;
+	width: 75%;
+  padding-top: 2em;
+
 }
 
 .cloud {
@@ -290,6 +281,12 @@ header {
 }
 
 .dashboard {
+
+  z-index: 1;
+width: 100%;
+align-self: flex-end;
+position: relative;
+top: 0;
 	display: flex;
 	align-items: center;
 }
@@ -371,19 +368,23 @@ header {
 }
 
 .peony5 {
-	flex-direction: row;
-	justify-content: flex-end;
-	display: inline-flex;
-	background-color: #007E8B;
-	background-image: url(../images/BackgroundLines.png);
-	background-position: center;
-	background-repeat: repeat-y;
-	width: 100%;
-	z-index: -1;
+  /* flex-direction: row; */
+	/* justify-content: flex-end; */
+	/* display: inline-flex; */
+	/* background-color: #007E8B; */
+	/* background-image: url(../images/BackgroundLines.png); */
+	/* background-position: center; */
+	/* background-repeat: repeat-y; */
+	/* width: 100%; */
+	z-index: 1;
+	width:  50%;
+	align-self: flex-end;
+	position: relative;
+	top: 0;
 }
 
 .peony5 img {
-	width: 50%;
+  width: 50%;
 	z-index: 1;
 	top: -1px;
 }
@@ -560,23 +561,16 @@ h6 {
 	padding-left: 20px;
 }
 
-.roles {
+.roles2 {
+  padding-top: 1em;
+  padding-bottom: 1em;
 	font-family: Montserrat;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 18px;
+	font-size: 24px;
 	line-height: 35px;
-	left: 0px;
-	align-items: center;
-	text-align: center;
 	color: white;
-	top: 120px;
-}
-
-.roles2 {
-	font-family: Montserrat;
-	font-size: 18px;
-	line-height: 1.6em;
+  width: 290px;
 }
 
 .roles3 {
@@ -609,66 +603,46 @@ h6 {
 }
 
 .comp-para-1 {
-  width: 14em;
+  width: 17em;
 	padding-top: 1em;
 	font-family: Montserrat;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 18px;
-	line-height: 24px;
+	line-height: 22px;
 	color: white;
 }
 
-.comp-para-2 {
-	position: relative;
-	width: 327px;
-	height: 172px;
-	top: 2680px;
-	padding-left: 24px;
-	padding-top: 30px;
-	font-family: Montserrat;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 18px;
-	line-height: 22px;
-	display: flex;
-	align-items: center;
-	color: white;
+.personas {
+  width: 16em;
+  padding-bottom: 2em;
+  font-family: Montserrat;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: white;
+  align-items: center;
 }
 
-.comp-para-3 {
-	position: relative;
-	width: 327px;
-	height: 172px;
-	top: 3025px;
-	padding-left: 24px;
-	padding-top: 90px;
-	padding-bottom: 30px;
-	font-family: Montserrat;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 18px;
-	line-height: 22px;
-	display: flex;
-	align-items: center;
-	color: white;
+.personas-2 {
+  width: 16em;
+  font-family: Montserrat;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: white;
+  align-items: center;
 }
 
-.comp-para-4 {
-	position: relative;
-	width: 327px;
-	height: 172px;
-	top: 3370px;
-	padding-left: 24px;
-	padding-bottom: 30px;
-	font-family: Montserrat;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 18px;
-	line-height: 22px;
-	display: flex;
-	align-items: center;
-	color: white;
+.personas-3 {
+  width: 16em;
+  font-family: Montserrat;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 35px;
+  color: white;
+  align-items: center;
+
 }
 
 .bold {
@@ -685,17 +659,19 @@ h6 {
 	display: flex;
 	align-items: center;
 	color: white;
+  padding-bottom: 1em;
 }
 
 .user-head {
 	font-family: Raleway;
-	font-style: normal;
 	font-weight: 600;
 	font-size: 20px;
 	line-height: 23px;
-	display: flex;
-	align-items: center;
+  align-items: center;
+  text-align: left;
 	color: white;
+  width: 14.5em;
+  padding-bottom: 1em;
 }
 
 .brand-char {
@@ -812,6 +788,7 @@ h6 {
 	display: flex;
 	flex-direction: column;
 	text-align: left;
+  align-items: left;
 }
 
 .casp-background-3 {
@@ -833,8 +810,31 @@ h6 {
 	flex-direction: column;
 	align-items: center;
 	text-align: left;
+  padding-bottom: 2em;
+}
+.casp-background-5 {
+	background: #073953;
+	background-image: url(../images/BackgroundLines.png);
+	background-position: center;
+	background-repeat: repeat-y;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+  align-items: center;
 }
 
+.casp-background-6 {
+	background: #007E8B;
+	background-image: url(../images/BackgroundLines.png);
+	background-position: center;
+	background-repeat: repeat-y;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+  align-items: center;
+}
 .overview {
 	display: flex;
 	align-items: center;
@@ -1084,7 +1084,7 @@ h6 {
 }
 
 .contact {
-	top: 2150px;
+	top: 3000px;
 	width: 150px;
 	height: 50px;
 	font-size: 20px;
@@ -1094,7 +1094,8 @@ h6 {
 	background-color: #007E8B;
 	display: inline-block;
 	border-radius: 12px;
-	padding-top: 18px;
+	/* padding-top: 18px; */
+
 }
 
 .bigger {
@@ -1115,14 +1116,14 @@ h6 {
 }
 
 .contact-first {
-	top: 2150px;
 	background: #007E8B;
 	align-items: center
 }
 
 .bio-contact {
 	background: #FF5A5F;
-	z-index: 9;
+  position: absolute;
+	z-index: 2;
 }
 
 .about-contact {
@@ -1177,12 +1178,33 @@ h6 {
 	display: inline-block;
 	border-radius: 12px;
 	padding-top: 18px;
-}
+z-index: 9;}
 
 .view-proto a {
 	text-decoration: none;
 	color: white;
 }
+.view-user {
+	width: 150px;
+	height: 50px;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 22px;
+	text-align: center;
+	background-color: #FF5A5F;
+	border: none;
+	border-radius: 12px;
+  padding-top: .2em;
+}
+
+.view-user a {
+	text-decoration: none;
+	color: white;
+}
+
+
 
 .submit-button {
 	padding-top: .8em;
@@ -1209,4 +1231,23 @@ h6 {
 
 .peony7 img {
 	width: 50%;
+}
+.roles {
+  padding-top: 1em;
+  padding-bottom: 1em;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 35px;
+	color: white;
+  width: 12em;
+}
+.flow-1 {
+	width: 75%;
+padding-top: 1em;
+padding-bottom: 1em;
+display: flex;
+flex-direction: row;
+align-items: center;
 }
