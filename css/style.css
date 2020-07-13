@@ -1313,6 +1313,7 @@ align-items: center;
 	padding-top: 3em;
 }
 .color {
+	width: 85%;
 		content: "";
 clear: both;
 display: table;
