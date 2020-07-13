@@ -92,6 +92,7 @@ header {
 	font-family: Raleway;
 	font-size: 18px;
 	line-height: 16px;
+  z-index: 9;
 }
 
 .bottomnav a {
@@ -391,8 +392,6 @@ top: 0;
 }
 
 .peony6 {
-	display: flex;
-	flex-direction: row;
 	justify-content: flex-end;
 	padding-top: 1em;
 }
@@ -564,12 +563,11 @@ h6 {
 }
 
 .roles2 {
-  padding-top: 1em;
   padding-bottom: 1em;
 	font-family: Montserrat;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 24px;
+	font-size: 18px;
 	line-height: 35px;
 	color: white;
   width: 290px;
@@ -932,7 +930,6 @@ h6 {
 	display: flex;
 	align-items: center;
 	text-align: center;
-	padding-bottom: 25px;
 }
 
 .casp-header-2 {
@@ -1248,8 +1245,9 @@ z-index: 9;}
 }
 .peony7{
   width:  50%;
-float: right;
-position: relative;
+display: flex;
+flex-direction: column-reverse;
+justify-content: flex-end;
 }
 
 .peony7 img {
