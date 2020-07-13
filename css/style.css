@@ -92,14 +92,13 @@ header {
 	font-family: Raleway;
 	font-size: 18px;
 	line-height: 16px;
-  z-index: 9;
+  z-index: 99;
 }
 
 .bottomnav a {
   text-decoration: none;
   color: white;
   padding-right: 25px;
-  padding-left: 0px;
 }
 
 .indexnav a {
@@ -353,20 +352,16 @@ top: 0;
 
 .peony3 img {
 	width: 50%;
+	float: left;
 }
 
 .peony4 {
-	display: inline-flex;
-    z-index: 1;
-  align-self:flex-start;
-  position: relative;
-  top: 0;
+
 }
 
 .peony4 img {
 	width: 50%;
-  z-index: 1;
-  top: -3px;
+
 }
 
 .peony5 {
@@ -1244,15 +1239,24 @@ z-index: 9;}
   align-items: center;
 }
 .peony7{
-  width:  50%;
-display: flex;
-flex-direction: column-reverse;
-justify-content: flex-end;
+	display: flex;
+	    flex-direction: row;
+	    justify-content: flex-end;
 }
 
 .peony7 img {
-width: 80%;
+	width: 50%;
 }
+.peony8{
+	display: flex;
+	    flex-direction: row;
+	    justify-content: flex-end;
+}
+
+.peony8 img {
+	width: 50%;
+}
+
 
 
 .roles {
