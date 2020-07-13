@@ -197,6 +197,7 @@ header {
   padding-bottom: 1.5em;
 }
 
+
 .quote {
   font-family: Montserrat;
 font-style: normal;
@@ -236,14 +237,13 @@ padding-bottom: 1em;
 }
 
 .cloud {
-	width: 290px;
-	height: 163.08px;
+	width: 20em;
+	height: 15em;
+	padding-top: 1em;
+	padding-bottom: 2em;
 }
 
-.color {
-	width: 120px;
-	height: 120px;
-}
+
 
 .casp-logo {
 	width: 174.81px;
@@ -672,15 +672,9 @@ h6 {
 }
 
 .brand-char {
-
 	font-family: Montserrat;
-	font-style: normal;
-	font-weight: normal;
 	font-size: 20px;
-	line-height: 24px;
-	display: flex;
-	align-items: center;
-	text-align: center;
+	line-height: 35px;
 	color: white;
 }
 
@@ -1257,7 +1251,13 @@ z-index: 9;}
 	width: 50%;
 }
 
-
+.visual-design {
+	padding-top: 1em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: left;
+}
 
 .roles {
   padding-top: 1em;
@@ -1277,4 +1277,23 @@ padding-bottom: 1em;
 display: flex;
 flex-direction: row;
 align-items: center;
+}
+
+
+.extra {
+	background: #007E8B;
+	background-image: url(../images/BackgroundLines.png);
+	background-position: center;
+	background-repeat: repeat-y;
+	width: 100%;
+	align-items: center;
+	text-align: center;
+	padding-top: 3em;
+}
+.color {
+	width: 120px;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: .5em;
 }
