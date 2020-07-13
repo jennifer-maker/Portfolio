@@ -163,8 +163,8 @@ header {
 }
 
 .icon-name {
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding-top: .5em;
+  padding-bottom: 2em;
 	height: 28px;
 	font-family: Raleway;
 	font-style: normal;
@@ -197,6 +197,9 @@ header {
   padding-bottom: 1.5em;
 }
 
+.more {
+	padding-top: 1em;
+}
 
 .quote {
   font-family: Montserrat;
@@ -278,6 +281,7 @@ padding-bottom: 1em;
 .mock {
 	width: 290px;
 	height: 187.54px;
+	padding-bottom: 1em;
 }
 
 .dashboard {
@@ -396,6 +400,14 @@ top: 0;
 	z-index: inherit;
 }
 
+.peony9 {
+float: 	right;
+}
+
+.peony9 img{
+	float: right;
+		width: 50%;
+}
 
 
 
@@ -788,6 +800,18 @@ h6 {
 	background-position: center;
 	background-repeat: repeat-y;
 	width: 100%;
+}
+
+.casp-background-33 {
+	background: #FF5A5F;
+	background-image: url(../images/BackgroundLines.png);
+	background-position: center;
+	background-repeat: repeat-y;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	text-align: center;
 }
 
 .casp-background-4 {
