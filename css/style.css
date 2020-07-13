@@ -1313,9 +1313,8 @@ align-items: center;
 	padding-top: 3em;
 }
 .color {
-	width: 120px;
-display: flex;
-flex-direction: row;
-align-items: flex-start;
+		content: "";
+clear: both;
+display: table;
 padding: .5em;
 }
