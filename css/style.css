@@ -81,7 +81,6 @@ header {
 .bottomnav {
   font-family: Raleway;
 	font-weight: normal;
-	background-color: #FF5A5F;
 	background-image: url(../images/BackgroundLines.png);
 	background-position: center;
 	background-repeat: repeat-y;
@@ -99,6 +98,11 @@ header {
   text-decoration: none;
   color: white;
   padding-right: 25px;
+}
+
+.container {
+	background: #FF5A5F url(./Images/logo/peony4.png) no-repeat bottom left;
+background-size: 200px;
 }
 
 .indexnav a {
@@ -1077,7 +1081,6 @@ h6 {
 }
 
 .final {
-	background-color: #FF5A5F;
 	background-image: url(../images/BackgroundLines.png);
 	background-position: center;
 	background-repeat: repeat-y;
