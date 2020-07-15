@@ -86,7 +86,7 @@ header {
 	background-repeat: repeat-y;
 	width: 100%;
 	padding-bottom: 50px;
-  padding-top: 1em;
+  padding-top: 5em;
 	text-align: center;
 	font-family: Raleway;
 	font-size: 18px;
@@ -101,8 +101,8 @@ header {
 }
 
 .container {
-	background: #FF5A5F url(./Images/logo/peony4.png) no-repeat bottom left;
-background-size: 200px;
+	background: #FF5A5F url(../Images/logo/peony4.png) no-repeat bottom left;
+background-size: 40%;
 }
 
 .indexnav a {
@@ -1110,7 +1110,6 @@ h6 {
 	display: inline-block;
 	border-radius: 12px;
 	/* padding-top: 18px; */
-  z-index: 8;
 }
 
 .bigger {

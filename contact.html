@@ -21,20 +21,39 @@
       </header>
       <section class="hero-contact">
          <h5>Let’s work together!</h5>
-         <form action="mailto:jen.frazier1@gmail.com">
+         <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/YOUR_EMAIL_HERE" method="post">
             <div class="boxes">
                <label for="name">Name</label>
                <input type="text" id="name" name="name" size="42">
                <label for="email">Email</label>
                <input type="text" id="email" name="email" size="42">
                <label ="message">Message</label>
-               <div class="message">
-               </div>
+               <textarea rows="15" name="message" id="message" placeholder="" required=""></textarea>
+               <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
             </div>
             <div>
                <input type="submit" class="submit-button viewcase" value="Submit">
             </div>
          </form>
+         <div class="boxes">
+
+         <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/YOUR_EMAIL_HERE" method="post">
+  <fieldset id="fs-frm-inputs">
+    <label for="name">Name</label>
+    <input type="text" name="name" id="full-name" placeholder="" required="" size="42">
+    <label for="email-address">Email Address</label>
+    <input type="email" name="_replyto" id="email-address" placeholder="" required="" size="42">
+    <label for="message">Message</label>
+    <textarea rows="15" name="message" id="message" placeholder="" required=""></textarea>
+    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+  </fieldset>
+</div>
+
+  <input type="submit" value="Submit">
+</form>
+
+
+
       </section>
       <nav class="bottomnav contact-bottomnav blue">
          <a href="https://www.linkedin.com/in/jen-frazier1/">Linkedin</a>
