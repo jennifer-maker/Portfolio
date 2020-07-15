@@ -47,7 +47,6 @@ header {
 }
 
 .about-page {
-	background: #007E8B;
 	background-image: url(../images/BackgroundLines.png);
 	background-position: center;
 	background-repeat: repeat-y;
@@ -105,6 +104,17 @@ header {
 background-size: 40%;
 }
 
+.container-2 {
+	background: #007E8B  url(../Images/logo/peony5.png) no-repeat bottom right;
+background-size: 50%;
+}
+
+.container-3 {
+	background: #007E8B  url(../Images/logo/peony8.png) no-repeat right;
+background-size: 70%;
+padding: 0px;
+}
+
 .indexnav a {
 	padding-right: 0px;
 }
@@ -132,11 +142,6 @@ background-size: 40%;
 	padding-right: 25px;
 }
 
-.about-bottomnav {
-  position: absolute;
-  z-index: 3;
-	padding-top: 2em;
-}
 
 .space {
 	padding-bottom: 45px;
