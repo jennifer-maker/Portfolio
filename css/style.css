@@ -22,15 +22,14 @@ header {
 	background-repeat: repeat-y;
 	width: 100%;
 }
-
+/***
 .topbar {
-	background: #007E8B;
 	background-image: url(../images/BackgroundLines.png);
 	background-position: center;
 	background-repeat: repeat-y;
 	width: 100%;
 }
-
+***/
 .contacts-header {
 	background: #073953;
 	background-image: url(../images/BackgroundLines.png);
@@ -80,9 +79,6 @@ header {
 .bottomnav {
   font-family: Raleway;
 	font-weight: normal;
-	background-image: url(../images/BackgroundLines.png);
-	background-position: center;
-	background-repeat: repeat-y;
 	width: 100%;
 	padding-bottom: 50px;
   padding-top: 5em;
@@ -164,6 +160,9 @@ padding: 0px;
 /*** Images ***/
 
 .caseimage {
+	width: 100%;
+}
+.caseimage1 {
 	width: 100%;
 }
 
@@ -722,30 +721,6 @@ h6 {
 	padding-top: 1em;
 }
 
-.background-para {
-	width: 19em;
-	line-height: 30px;
-	display: flex;
-	align-items: center;
-	color: white;
-	padding-top: 1em;
-}
-
-.background-para2 {
-	width: 19em;
-	padding-top: 2em;
-	line-height: 30px;
-	display: flex;
-	align-items: center;
-	color: white;
-}
-
-.why-design-para {
-	width: 19em;
-	color: white;
-	line-height: 2em;
-	padding-top: 1em;
-}
 
 .complex {
 	height: 46px;
@@ -753,18 +728,7 @@ h6 {
   padding-bottom: 4em;
 }
 
-.about-background {
-	width: 19em;
-	display: flex;
-	flex-direction: column;
-	align-items: baseline;
-  padding-top: 1em;
-}
 
-.why-design {
-	width: 19em;
-	padding-top: 2em;
-}
 
 .about-please {
 	width: 14em;
@@ -1372,51 +1336,120 @@ align-items: center;
 }
 
 
-
-
-
-
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1024px) {
 	.logo {
 		width: 90px;
 		height: 128px;
 	}
+	.topbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 	.topnav {
 		transform: rotate(90deg);
+		transform-origin:0% 50%;
 		padding-right: 0px;
-		padding-left: 500px;
+		padding-bottom: 0px;
 		padding-top: 0px;
+		padding-left: 0px;
+		font-size: 24px;
+		font-weight: normal;
 	}
-.hero, .topbar, .caspian, .final, .bottomnav {
+.hero, .caspian, .final, .container-2, .about-page {
 	background-image: url(../images/background-lines-desktop.png);
 	background-position: center;
 	background-repeat: repeat-y;
 	width : 100%;
 }
-.hero h1 {
+.hero h1, .complex {
 	padding-top: 200px;
 }
-.hero h1, .hero h2, .welcome1, .welcome {
+.hero h1, .hero h2, .welcome1, .welcome, h3, .intro {
 	text-align: left;
 	padding-left: 146px;
 }
-.welcome1, .welcome {
+.welcome1, .welcome, h3, .intro {
 	width: 700px;
 	padding-bottom: 0px;
 	line-height: 38px;
 }
-.peony1 img, .peony2 img {
+.space {
+	padding-bottom: 100px;
+	text-align: left;
+	width: 700px;
+	padding-left: 0;
+}
+.bigger {
+	padding-bottom: 50px;
+	padding-top: 300px;
+
+}
+
+.caspian {
+	padding-bottom: 300px;
+}
+
+.final {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+h3 {
+	padding-top: 200px;
+	padding-bottom: 200px;
+}
+h4 {
+	font-size: 30px;
+}
+
+.intro {
+	padding-bottom: 50px;
+}
+.viewcase, .contact-first {
+	float: left;
+	margin-left: 146px;
+}
+.contact {
+}
+
+.peony1 img, .peony2 img, {
 	width: 40%;
 	padding: 0;
 	align-self: flex-end;
 }
+
 .container {
 	background: #FF5A5F url(../Images/logo/peony10.png) no-repeat bottom right;
 background-size: 40%;
-
 }
-.peony3 img {
+
+.container-2 {
+	align-items: flex-start;
+	background-image: #007E8B url(../Images/logo/peony11.png) no-repeat top right;
+	background-size: 40%
+}
+.peony3 img, .caseimage1 {
 	display: none;
+}
+.bottomnav {
+	text-align: left;
+padding-left: 146px;
+padding-bottom: 0px;
+padding-top: 200px;
+}
+.about-image {
+	align-self: flex-start;
+	width: 576.12px;
+height: 432.09px;
+padding-top: 20px;
+}
+.about-page {
+	align-items: flex-start;
+	padding-left: 146px;
+}
+.complex, .about-para, .about-please   {
+	width: 584px;
 }
 }
 
