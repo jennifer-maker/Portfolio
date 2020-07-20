@@ -1357,25 +1357,25 @@ align-items: center;
 		font-size: 24px;
 		font-weight: normal;
 	}
-.hero, .caspian, .final, .container-2, .about-page {
+.hero, .caspian, .final, .bottomnav, .about-page, .hero-contact, .contact-bottomnav {
 	background-image: url(../images/background-lines-desktop.png);
 	background-position: center;
 	background-repeat: repeat-y;
 	width : 100%;
 }
-.hero h1, .complex {
+.hero h1, .complex, h5 {
 	padding-top: 200px;
 }
-.hero h1, .hero h2, .welcome1, .welcome, h3, .intro {
+.hero h1, .hero h2, .welcome1, .welcome, h3, .intro, h5 {
 	text-align: left;
 	padding-left: 146px;
 }
-.welcome1, .welcome, h3, .intro {
+.welcome1, .welcome, h3, .intro, h5 {
 	width: 700px;
 	padding-bottom: 0px;
 	line-height: 38px;
 }
-.space {
+.space, h5 {
 	padding-bottom: 100px;
 	text-align: left;
 	width: 700px;
@@ -1384,7 +1384,6 @@ align-items: center;
 .bigger {
 	padding-bottom: 50px;
 	padding-top: 300px;
-
 }
 
 .caspian {
@@ -1393,24 +1392,22 @@ align-items: center;
 
 .final {
 	padding-top: 100px;
-	padding-bottom: 100px;
 }
 h3 {
+	font-size: 64px;
 	padding-top: 200px;
-	padding-bottom: 200px;
+	padding-bottom: 100px;
 }
-h4 {
+h4, h5 {
 	font-size: 30px;
 }
 
 .intro {
 	padding-bottom: 50px;
 }
-.viewcase, .contact-first {
+.viewcase, .contact, .contact-first  {
 	float: left;
 	margin-left: 146px;
-}
-.contact {
 }
 
 .peony1 img, .peony2 img, {
@@ -1429,28 +1426,40 @@ background-size: 40%;
 	background-image: #007E8B url(../Images/logo/peony11.png) no-repeat top right;
 	background-size: 40%
 }
+
+.container-5 {
+	background: #073953 url(../Images/logo/peony10.png) no-repeat bottom right;
+background-size: 40%;
+}
 .peony3 img, .caseimage1 {
 	display: none;
 }
 .bottomnav {
 	text-align: left;
 padding-left: 146px;
-padding-bottom: 0px;
+padding-bottom: 50px;
 padding-top: 200px;
 }
 .about-image {
-	align-self: flex-start;
 	width: 576.12px;
 height: 432.09px;
 padding-top: 20px;
 }
-.about-page {
+.about-page, {
 	align-items: flex-start;
 	padding-left: 146px;
 }
 .complex, .about-para, .about-please   {
 	width: 584px;
 }
+.boxes {
+	padding-right: 500px;
+	padding-left: 146px
+}
+label {
+	padding-right: 200px;
+}
+
 }
 
 
