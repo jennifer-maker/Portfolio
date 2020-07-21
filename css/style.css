@@ -837,6 +837,9 @@ h6 {
 	text-align: left;
   align-items: center;
 }
+.casp-desktop {
+	display: none;
+}
 .overview {
 	display: flex;
 	align-items: center;
@@ -871,7 +874,9 @@ h6 {
 	line-height: 22px;
 	color: white;
 }
-
+.view-proto-desk {
+	display: none;
+}
 .survey-head {
 	font-family: Montserrat;
 	font-style: normal;
@@ -1387,14 +1392,14 @@ align-items: center;
 	padding-left: 146px;
 	padding-top: 100px;
 }
-h3, .peony2 {
+h3 {
+	font-size: 64px;
+}
+.h_3, .peony2 {
 	font-size: 64px;
 	padding-bottom: 100px;
 }
 
-h-3-space {
-	padding-bottom: 0px;
-}
 h4, h5, h6 {
 	font-size: 30px;
 }
@@ -1467,12 +1472,7 @@ label {
 	padding-top: 200px;
 }
 
-/*.peony12 {
-	display: flex;
-	align-self: flex-end;
-	width: 40%;
-	margin: 0px;
-}*/
+
 .bio-contact {
 	align-self: flex-start;
 	margin-left: 146px;
@@ -1481,7 +1481,42 @@ label {
 	align-self: flex-start;
 	padding-left: 146px;
 }
+.caseimage {
+	display: none;
+}
 
+.casp-desktop {
+	display: flex;
+	width: 60%;
+	margin: auto;
+}
+.more-space{
+	padding-top: 50px;
+}
+.view-proto {
+	display: none;
+}
+.view-proto-desk {
+		width: 150px;
+		height: 50px;
+		font-family: Raleway;
+		font-size: 20px;
+		align-items: center;
+		text-align: center;
+		background-color: #FF5A5F;
+		border: none;
+		display: inline-block;
+		border-radius: 12px;
+		padding-top: 18px;
+	z-index: 9;
+	align-self: flex-start;
+}
+
+	.view-proto-desk a {
+		text-decoration: none;
+		color: white;
+
+}
 }
 
 
