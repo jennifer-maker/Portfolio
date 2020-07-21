@@ -94,6 +94,12 @@ header {
   color: white;
   padding-right: 25px;
 }
+.nav-lines {
+	background-image: url(../images/BackgroundLines.png);
+	background-position: center;
+	background-repeat: repeat-y;
+	width: 100%;
+}
 
 .container {
 	background: #FF5A5F url(../Images/logo/peony4.png) no-repeat bottom left;
@@ -101,7 +107,7 @@ background-size: 40%;
 }
 
 .container-2 {
-	background: #007E8B  url(../Images/logo/peony5.png) no-repeat bottom right;
+	background: #007E8B   url(../Images/logo/peony5.png) no-repeat bottom right;
 background-size: 50%;
 }
 
@@ -1343,7 +1349,7 @@ align-items: center;
 		top:150px;
 		padding-top: 0px;
 	}
-.hero, .caspian, .final, .hero-contact, .contact-bottomnav, .casp-background-1, .extra, .casp-background-2, .casp-background-22  {
+.hero, .caspian, .final, .hero-contact, .contact-bottomnav, .casp-background-1, .extra, .casp-background-2, .casp-background-22, .about-page  {
 	background-image: url(../images/background-lines-desktop.png);
 	background-position: center;
 	background-repeat: repeat-y;
@@ -1377,6 +1383,8 @@ align-items: center;
 }
 
 .final {
+	align-items: flex-start;
+	padding-left: 146px;
 	padding-top: 100px;
 }
 h3, .peony2 {
@@ -1412,9 +1420,8 @@ background-size: 40%;
 
 .container-2 {
 	background-image:  url(../Images/logo/peony11.png) no-repeat top right;
-	background-size: 40%
-
-}  
+	background-size: 40%;
+}
 
 .container-5 {
 	background: #073953 url(../Images/logo/peony10.png) no-repeat bottom right;
@@ -1432,12 +1439,11 @@ padding-top: 200px;
 .about-image {
 	width: 576.12px;
 height: 432.09px;
+align-self: flex-start;
+margin-left: 146px;
+
 }
-.about-page {
-	align-items: flex-start;
-	padding-left: 146px;
-	width: 584px;
-}
+
 .complex, .about-para, .about-please   {
 	width: 584px;
 }
@@ -1454,20 +1460,27 @@ label {
 		background-repeat: repeat-y;
 		width : 100%;
 }
-.casp-background-1 {
+.about-page  {
 
 }
 .h-3-space {
 	padding-top: 200px;
 }
 
-.peony12 {
+/*.peony12 {
 	display: flex;
 	align-self: flex-end;
 	width: 40%;
 	margin: 0px;
+}*/
+.bio-contact {
+	align-self: flex-start;
+	margin-left: 146px;
 }
-
+.align {
+	align-self: flex-start;
+	padding-left: 146px;
+}
 
 }
 
