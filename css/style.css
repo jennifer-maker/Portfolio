@@ -1515,6 +1515,12 @@ label {
 	.view-proto-desk a {
 		text-decoration: none;
 		color: white;
+}
+.case1 {
+	background-image: url(../Images/cloud-desktop.png);
+	background-position: right;
+	background-size: 50%;
+	background-repeat: no-repeat;
 
 }
 }
