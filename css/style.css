@@ -1335,6 +1335,8 @@ align-items: center;
 .peony12 {
 	display: none;
 }
+.cloudy {
+}
 
 
 @media screen and (min-width: 1024px) {
@@ -1485,6 +1487,9 @@ label {
 	align-self: flex-start;
 	padding-left: 146px;
 }
+.pic {
+	width: 500px;
+}
 .caseimage {
 	display: none;
 }
@@ -1511,10 +1516,10 @@ label {
 		display: inline-block;
 		border-radius: 12px;
 		padding-top: 18px;
-	z-index: 9;
-float: left;
-margin-left: 146px;
-margin-top: 50px;
+		z-index: 9;
+		float: left;
+		margin-left: 146px;
+		margin-top: 50px;
 }
 
 	.view-proto-desk a {
@@ -1527,7 +1532,7 @@ margin-top: 50px;
 	background-size: 50%;
 	background-repeat: no-repeat;
 }
-.cloud {
+.cloudy {
 	background-image: url(../Images/cloud-desktop.png);
 	float: right;
 	width: 50%;
@@ -1536,11 +1541,22 @@ margin-top: 50px;
 }
 .extra {
 	display: none;
-/***}
-.casp-background-2, .casp-background-22 {
-flex-direction: row;
-justify-content: center;
-align-items: center;
+}
+.about-para {
+	padding-bottom: 0px;
+}
+
+
+.casp-header-2, .casp-header-3, .casp-header-4 {
+column-count: 3;
+column-gap: 10px;
+column-span: all;
+
+}
+.roles3 {
+	column-count: 3;
+	column-gap: 50px;
+	column-width: 50px;
 }
 }
 
