@@ -186,6 +186,9 @@ padding: 0px;
 	background: url(IMG_8407.jpg);
 	border-radius: 25px;
 }
+.about-pic-desktop {
+	display: none;
+}
 
 .icon-name {
   padding-top: .5em;
@@ -1350,7 +1353,7 @@ align-items: center;
 		position:relative;
 		font-size: 24px;
 		font-weight: normal;
-		left: 50px;
+		left: 70px;
 		top:150px;
 		padding-top: 0px;
 	}
@@ -1442,11 +1445,12 @@ padding-bottom: 50px;
 padding-top: 200px;
 }
 .about-image {
-	width: 576.12px;
-height: 432.09px;
-align-self: flex-start;
-margin-left: 146px;
-
+display: none;
+}
+.about-pic-desk {
+	display: flex;
+	float: left;
+	width: 70%;
 }
 
 .complex, .about-para, .about-please   {
@@ -1488,7 +1492,6 @@ label {
 .casp-desktop {
 	display: flex;
 	width: 60%;
-	margin: auto;
 }
 .more-space{
 	padding-top: 50px;
@@ -1509,19 +1512,35 @@ label {
 		border-radius: 12px;
 		padding-top: 18px;
 	z-index: 9;
-	align-self: flex-start;
+float: left;
+margin-left: 146px;
+margin-top: 50px;
 }
 
 	.view-proto-desk a {
 		text-decoration: none;
 		color: white;
 }
-.case1 {
+.desk-lines {
 	background-image: url(../Images/cloud-desktop.png);
 	background-position: right;
 	background-size: 50%;
 	background-repeat: no-repeat;
-
+}
+.cloud {
+	background-image: url(../Images/cloud-desktop.png);
+	float: right;
+	width: 50%;
+	background-repeat: no-repeat;
+	margin-top: 0px;
+}
+.extra {
+	display: none;
+/***}
+.casp-background-2, .casp-background-22 {
+flex-direction: row;
+justify-content: center;
+align-items: center;
 }
 }
 
