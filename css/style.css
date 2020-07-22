@@ -129,6 +129,8 @@ background-size: 70%;
 padding: 0px;
 }
 
+
+
 .indexnav a {
 	padding-right: 0px;
 }
@@ -186,7 +188,7 @@ padding: 0px;
 	background: url(IMG_8407.jpg);
 	border-radius: 25px;
 }
-.about-pic-desktop {
+.about-pic-desk {
 	display: none;
 }
 
@@ -1335,7 +1337,8 @@ align-items: center;
 .peony12 {
 	display: none;
 }
-.cloudy {
+.caseimage2 {
+	display: none;
 }
 
 
@@ -1359,7 +1362,7 @@ align-items: center;
 		top:150px;
 		padding-top: 0px;
 	}
-.hero, .caspian, .final, .hero-contact, .contact-bottomnav, .casp-background-1, .extra, .casp-background-2, .casp-background-22, .about-page  {
+.hero, .caspian, .final, .hero-contact, .contact-bottomnav, .casp-background-1, .extra, .casp-background-2, .casp-background-22, .about-page, .casp-background-4, .casp-header, .casp-background-5  {
 	background-image: url(../images/background-lines-desktop.png);
 	background-position: center;
 	background-repeat: repeat-y;
@@ -1372,7 +1375,7 @@ align-items: center;
 	text-align: left;
 	padding-left: 146px;
 }
-.welcome1, .welcome, h3, .intro, h5 {
+.welcome1, .welcome, h3, h5 {
 	width: 700px;
 	padding-bottom: 0px;
 	line-height: 38px;
@@ -1389,7 +1392,31 @@ align-items: center;
 }
 
 .caspian {
-	padding-bottom: 300px;
+	display:flex;
+	flex-direction: row;
+	height: 1022px;
+}
+
+.left {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.right{
+	width:  50%;
+	height: 100%;
+}
+.caseimage2 {
+	display: flex;
+	align-self: flex-end;
+	float: right;
+}
+.right .caseimage2{
+	height: 100%;
+	width:  100%;
+	/* align-self: stretch; */
 }
 
 .final {
@@ -1427,7 +1454,12 @@ h4, h5, h6 {
 	background: #FF5A5F url(../Images/logo/peony10.png) no-repeat bottom right;
 background-size: 40%;
 }
-
+.about-page {
+	background-image: url(../Images/about-pic-desktop.png);
+	background-position: 50% 15%;
+	background-size: 70%;
+	background-repeat: no-repeat;
+}
 .container-2 {
 	background-image:  url(../Images/logo/peony11.png) no-repeat top right;
 	background-size: 40%;
@@ -1437,7 +1469,7 @@ background-size: 40%;
 	background: #073953 url(../Images/logo/peony10.png) no-repeat bottom right;
 background-size: 40%;
 }
-.peony3 img, .caseimage1 {
+.peony3 img, .caseimage1, .about-image, .caseimage, .view-proto {
 	display: none;
 }
 .bottomnav {
@@ -1446,15 +1478,11 @@ padding-left: 146px;
 padding-bottom: 50px;
 padding-top: 200px;
 }
-.about-image {
-display: none;
-}
-.about-pic-desk {
-	display: flex;
-	float: left;
-	width: 70%;
-}
 
+
+.peony7 {
+	padding-top: 20em;
+}
 .complex, .about-para, .about-please   {
 	width: 584px;
 }
@@ -1471,9 +1499,7 @@ label {
 		background-repeat: repeat-y;
 		width : 100%;
 }
-.about-page  {
 
-}
 .h-3-space {
 	padding-top: 200px;
 }
@@ -1490,8 +1516,11 @@ label {
 .pic {
 	width: 500px;
 }
-.caseimage {
-	display: none;
+.pic-space {
+	padding-top: 35em;
+}
+.casp-background-5 {
+	padding-bottom: 2em;
 }
 
 .casp-desktop {
@@ -1501,9 +1530,7 @@ label {
 .more-space{
 	padding-top: 50px;
 }
-.view-proto {
-	display: none;
-}
+
 .view-proto-desk {
 		width: 150px;
 		height: 50px;
@@ -1532,32 +1559,72 @@ label {
 	background-size: 50%;
 	background-repeat: no-repeat;
 }
-.cloudy {
-	background-image: url(../Images/cloud-desktop.png);
-	float: right;
-	width: 50%;
-	background-repeat: no-repeat;
-	margin-top: 0px;
-}
-.extra {
-	display: none;
-}
+
 .about-para {
 	padding-bottom: 0px;
 }
 
 
-.casp-header-2, .casp-header-3, .casp-header-4 {
-column-count: 3;
-column-gap: 10px;
-column-span: all;
+.casp-header-2, .casp-header-3, .casp-header-4, .roles {
+align-items: flex-start;
+	text-align:left;
+	padding-top: 1em;
+}
 
+
+.row{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-top: 1em;
 }
-.roles3 {
-	column-count: 3;
-	column-gap: 50px;
-	column-width: 50px;
+.roles3, .roles4{
+text-align: left;
 }
+.casp-header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+text-align: center;
+}
+.user-surveys{
+	padding-left: 0px;
+}
+ .user-survey, .surveys-para  {
+	 display: flex;
+	 flex-direction: column;
+	 align-self: flex-start;
+	 margin-left: 40px;
+	 width: 700px;
+ }
+ .comp-para-1 {
+	padding-left: 0px;
+ width: 300px;
+ }
+  .comp-head, .comp-para, .personas {
+		display: flex;
+		flex-direction: column;
+		align-self: flex-start;
+		width: 700px;
+	}
+.roles {
+	display: flex;
+	flex-direction: column;
+	align-self: flex-start;
+	width: 700px;
+	padding-left: 2.5em;
+}
+ .view-user-desk {
+align-self: flex-start;
+margin-left: 3em;
+}
+.persona-pic, .user-names {
+	align-items: center;
+	text-align: center;
+}
+
+
 }
 
 
