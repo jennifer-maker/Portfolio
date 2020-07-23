@@ -1362,7 +1362,7 @@ align-items: center;
 		top:150px;
 		padding-top: 0px;
 	}
-.hero, .caspian, .final, .hero-contact, .contact-bottomnav, .casp-background-1, .extra, .casp-background-2, .casp-background-22, .about-page, .casp-background-4, .casp-header, .casp-background-5  {
+.hero, .caspian, .final, .hero-contact, .contact-bottomnav, .casp-background-1, .extra, .casp-background-2, .casp-background-22, .about-page, .casp-background-4, .casp-header, .casp-background-5, .casp-background-6  {
 	background-image: url(../images/background-lines-desktop.png);
 	background-position: center;
 	background-repeat: repeat-y;
@@ -1527,7 +1527,7 @@ label {
 	display: flex;
 	width: 60%;
 }
-.more-space{
+.more-space, .casp-background-6 {
 	padding-top: 50px;
 }
 
@@ -1617,17 +1617,24 @@ padding-bottom: 2em;
 	width: 700px;
 	padding-left: 2.5em;
 }
- .view-user-desk {
+ .view-user-desk, .view-user, .personas-desk, .flows {
 align-self: flex-start;
 margin-left: 3em;
 }
-.persona-pic, .user-names {
+.persona-pic, .user-names  {
 	align-items: center;
 	text-align: center;
+	align-self: center;
 }
 .title {
 	padding-top: 1em;
 }
+.flow-1 {
+	width: 20%;
+}
+.wireframe {
+	width: 40%;
+margin-left: 4em;}
 
 }
 
