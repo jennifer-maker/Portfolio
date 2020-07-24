@@ -536,7 +536,6 @@ h3 {
 	font-size: 48px;
 	line-height: 64px;
 	align-items: center;
-	text-align: center;
 	color: white;
 }
 
@@ -1258,7 +1257,7 @@ z-index: 9;}
 }
 
 .visual-design {
-	padding-top: 1em;
+	/* padding-top: 1em; */
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -1337,9 +1336,10 @@ align-items: center;
 .peony12 {
 	display: none;
 }
-.caseimage2 {
+.caseimage2, .brand-cloud-desk, .peony-desk-brand, .casp-logo-desk, .sketch-desk, .sketch-desk-2 {
 	display: none;
 }
+
 
 
 @media screen and (min-width: 1024px) {
@@ -1362,16 +1362,19 @@ align-items: center;
 		top:150px;
 		padding-top: 0px;
 	}
-.hero, .caspian, .final, .hero-contact, .contact-bottomnav, .casp-background-1, .extra, .casp-background-2, .casp-background-22, .about-page, .casp-background-4, .casp-header, .casp-background-5, .casp-background-6  {
+.hero, .caspian, .final, .hero-contact, .contact-bottomnav, .casp-background-1, .extra, .casp-background-2, .casp-background-22, .about-page, .casp-background-4, .casp-header, .casp-background-5, .casp-background-6, .user-testing, .casp-background-33  {
 	background-image: url(../images/background-lines-desktop.png);
 	background-position: center;
 	background-repeat: repeat-y;
 	width : 100%;
+	padding-left: 5em;
+	padding-right: 5em;
+	/* margin-left: 14em; */
 }
 .hero h1, .complex, h5 {
 	padding-top: 200px;
 }
-.hero h1, .hero h2, .welcome1, .welcome, h3, .intro, h5, h6 {
+.hero h1, .hero h2, .welcome1, .welcome, .intro, h5, h6 {
 	text-align: left;
 	padding-left: 146px;
 }
@@ -1430,6 +1433,8 @@ h3 {
 .h_3, .peony2 {
 	font-size: 64px;
 	padding-bottom: 100px;
+	text-align: left;
+	padding-left: 146px;
 }
 
 h4, h5, h6 {
@@ -1451,23 +1456,22 @@ h4, h5, h6 {
 }
 
 .container {
-	background: #FF5A5F url(../Images/logo/peony10.png) no-repeat bottom right;
+	background: #FF5A5F url(../images/logo/peony10.png) no-repeat bottom right;
 background-size: 40%;
 }
-.about-page {
-	background-image: url(../Images/about-pic-desktop.png);
-	background-position: 50% 15%;
-	background-size: 70%;
-	background-repeat: no-repeat;
-}
+
 .container-2 {
-	background-image:  url(../Images/logo/peony11.png) no-repeat top right;
+	background-image:  url(../images/logo/peony11.png) no-repeat top right;
 	background-size: 40%;
 }
 
 .container-5 {
-	background: #073953 url(../Images/logo/peony10.png) no-repeat bottom right;
+	background: #073953 url(../images/logo/peony10.png) no-repeat bottom right;
 background-size: 40%;
+}
+.container-visual {
+	background-image: url(../images/logo/peony3.png) no-repeat top right;
+	background-size: 40%;
 }
 .peony3 img, .caseimage1, .about-image, .caseimage, .view-proto {
 	display: none;
@@ -1501,7 +1505,9 @@ label {
 }
 
 .h-3-space {
+	text-align: left;
 	padding-top: 200px;
+	padding-left: 146px;
 }
 
 
@@ -1517,7 +1523,7 @@ label {
 	width: 500px;
 }
 .pic-space {
-	padding-top: 35em;
+	padding-top: 5em;
 }
 .casp-background-5 {
 	padding-bottom: 2em;
@@ -1565,7 +1571,7 @@ label {
 }
 
 
-.casp-header-2, .casp-header-3, .casp-header-4, .roles {
+.casp-header-2, .casp-header-3, .casp-header-4, .roles, .personas-3 {
 align-items: flex-start;
 	text-align:left;
 	padding-top: 1em;
@@ -1578,7 +1584,22 @@ align-items: flex-start;
 	flex-direction: row;
 	justify-content: space-around;
 	padding-top: 1em;
+	align-items:flex-start;
 }
+.personasDesk{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.userFlows{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+
 .roles3, .roles4{
 text-align: left;
 }
@@ -1598,7 +1619,7 @@ padding-bottom: 2em;
 	 flex-direction: column;
 	 align-self: flex-start;
 	 margin-left: 40px;
-	 width: 700px;
+	 width: 500px;
  }
  .comp-para-1 {
 	padding-left: 0px;
@@ -1608,13 +1629,13 @@ padding-bottom: 2em;
 		display: flex;
 		flex-direction: column;
 		align-self: flex-start;
-		width: 700px;
+		width: 500px;
 	}
 .roles {
 	display: flex;
 	flex-direction: column;
 	align-self: flex-start;
-	width: 700px;
+	width: 400px;
 	padding-left: 2.5em;
 }
  .view-user-desk, .view-user, .personas-desk, .flows {
@@ -1630,14 +1651,97 @@ margin-left: 3em;
 	padding-top: 1em;
 }
 .flow-1 {
-	width: 20%;
+	width: 35%;
+	align-self: flex-start;
 }
 .wireframe {
 	width: 40%;
 margin-left: 4em;}
+}
+.about-pic-desk {
+	display: flex;
+	width: 70%;
+	flex-direction: column;
+	align-self: center;
+}
+.user-testing  {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	padding-left: 0px;
+}
+.personas-test, .personas-3 {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	padding-left: 0px;
+	margin-left: 2em;
+}
+.roles-desk {display: flex;flex-direction: row;align-self: flex-start;/* padding-left: 2.5em; */}
 
+.visual-design {
+	align-items: flex-start;
+}
+.casp-header-desk {
+	background-image: none;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-self: center;
+}
+.casp-background-6{
+	align-items: flex-start;
 }
 
+.brand-cloud-desk {
+	display: flex;
+	align-self: center;
+height: 100%;
+width: 80%;
+}
+.peony-desk-brand {
+	display: flex;
+	align-self: flex-end;
+	float: right;
+	width: 30%;
+}
+.casp-header-vis {
+	padding-top: 0px;
+}
+.color {
+	display: flex;
+align-self: center;
+flex-flow: nowrap;
+width: 45%;
+padding: 5px;
+}
+.casp-logo-desk {
+	display: flex;
+align-self: center;
+width: 30%;
+}
+.h-3-desk {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-self: center;
+	padding-left: 0px;
+}
+.casp-logo-desk {
+	display: flex;
+align-self: center;
+width: 30%;
+}
+.sketch-desk, .sketch-desk-2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-self: center;
+	width: 25%;
+}
+}
 
 @media only screen and (min-width: 768px) {
 
