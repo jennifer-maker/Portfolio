@@ -813,6 +813,12 @@ h6 {
 	text-align: left;
 	align-items: center;
 }
+.personasDesk {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	align-items: center;
+}
 
 .casp-background-6 {
 	background: #007E8B;
@@ -1326,6 +1332,10 @@ h6 {
 .casp-logo {
 	display: none;
 }
+.personasDesk {
+
+}
+
 
 @media screen and (min-width: 1024px) {
 	.logo {
@@ -1378,7 +1388,6 @@ h6 {
 	.hero h2,
 	.welcome1,
 	.welcome,
-	.intro,
 	h5,
 	h6 {
 		text-align: left;
@@ -1386,14 +1395,22 @@ h6 {
 	}
 	.welcome1,
 	.welcome,
-	h3,
 	h5 {
 		width: 700px;
 		padding-bottom: 0px;
 		line-height: 38px;
 	}
+	h3, .intro {
+		text-align: left;
+		padding-top: 1em;
+		padding-bottom: 1em;
+		line-height: 38px;
+		margin-left: 1em;
+	}
+
 	.space,
 	h5 {
+		text-align: left;
 		padding-bottom: 100px;
 		text-align: left;
 		width: 700px;
@@ -1407,6 +1424,7 @@ h6 {
 		display: flex;
 		flex-direction: row;
 		height: 1022px;
+		padding: 0px;
 	}
 	.left {
 		width: 50%;
@@ -1417,6 +1435,7 @@ h6 {
 	.right {
 		width: 50%;
 		height: 100%;
+		margin-right: 0px;
 	}
 	.caseimage2 {
 		display: flex;
@@ -1452,7 +1471,7 @@ h6 {
 	}
 	.viewcase {
 		float: left;
-		margin-left: 146px;
+		margin-left: 3em;
 	}
 	.peony1 img,
 	.peony2 img,
@@ -1499,8 +1518,8 @@ h6 {
 		width: 584px;
 	}
 	.boxes {
-		padding-right: 500px;
-		padding-left: 146px
+		padding-right: 300px;
+		padding-left: 3em;
 	}
 	label {
 		padding-right: 200px;
@@ -1648,6 +1667,8 @@ h6 {
 	}
 	.persona-pic,
 	.user-names {
+		display: flex;
+		flex-direction: column;
 		align-items: center;
 		text-align: center;
 		align-self: center;
@@ -1767,12 +1788,14 @@ h6 {
 	width: 25%;
 }
 
+
 .container-4 {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: flex-start;
 	text-align: left;
+	background-size: 50%;
 }
 
 .typo {
@@ -1781,26 +1804,42 @@ h6 {
 	width: 60%;
 	height: 60%;
 }
-.mock {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	width: 20%;
-}
+
 .dashboard-desk {
 	display: flex;
 	flex-direction: column;
 	align-self: center;
 	align-items: center;
 	width: 80%;
+	padding-bottom: 3em;
 }
 h4  {
 	margin: 0;
 	padding-top: 1em;
 }
+.sketches {
+	display: flex;
+	flex-direction: row;
+justify-content: space-around;
+padding: 1em;
+}
+.mock {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 45%;
+}
+.mock-desk {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-self: center;
+}
+}
+@media only screen and (min-width: 768px) {
+
 
 
 
 }
-@media only screen and (min-width: 768px) {}
 @media only screen and (max-width: 1600px) {}
