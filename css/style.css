@@ -106,12 +106,12 @@ header {
 }
 
 .container {
-	background: #FF5A5F url(../Images/logo/peony4.png) no-repeat bottom left;
+	background: #FF5A5F url(../images/logo/peony4.png) no-repeat bottom left;
 	background-size: 40%;
 }
 
 .container-2 {
-	background: #007E8B url(../Images/logo/peony5.png) no-repeat bottom right;
+	background: #007E8B url(../images/logo/peony5.png) no-repeat bottom right;
 	background-size: 50%;
 }
 
@@ -120,13 +120,13 @@ header {
 }
 
 .container-4 {
-	background: #FF5A5F url(../Images/logo/peony9.png) no-repeat bottom right;
+	background: #FF5A5F url(../images/logo/peony9.png) no-repeat bottom right;
 	background-size: 70%;
 	padding: 0px;
 }
 
 .container-5 {
-	background: #073953 url(../Images/logo/peony9.png) no-repeat bottom right;
+	background: #073953 url(../images/logo/peony9.png) no-repeat bottom right;
 	background-size: 70%;
 	padding: 0px;
 }
@@ -1582,7 +1582,7 @@ h6 {
 		color: white;
 	}
 	.desk-lines {
-		background-image: url(../Images/cloud-desktop.png);
+		background-image: url(../images/cloud-desktop.png);
 		background-position: right;
 		background-size: 50%;
 		background-repeat: no-repeat;
@@ -1836,7 +1836,8 @@ padding: 1em;
 	align-self: center;
 }
 }
-@media only screen and (min-width: 768px) {
+
+@media only screen and (min-width: 600px) {
 	.logo {
 		width: 70px;
 		height: 108px;
@@ -1915,11 +1916,12 @@ h5 {
 }
 .tab {
 	text-align: left;
-	width: 600px;
+	width: 500px;
 }
 .caseimage1 {
 	width: 70%;
 	padding-bottom: 50px;
+	padding-top: 50px;
 }
 
 .container {
@@ -1947,8 +1949,31 @@ h5 {
 	padding-bottom: 50px;
 }
 .caseimage, .dashboard {
-
 	width: 75%;
+	 margin: 0 auto;
+	 padding-top: 30px;
+	 padding-bottom: 30px;
+}
+.row {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-top: 1em;
+	align-items: flex-start;
+}
+.casp-header-2,
+.casp-header-3,
+.casp-header-4 {
+	align-self: center;
+	padding-top: 0px;
+}
+.casp-header {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 50px;
 }
 
 }
