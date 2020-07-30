@@ -1948,19 +1948,23 @@ h5 {
 	width: 500px;
 	padding-bottom: 50px;
 }
-.caseimage, .dashboard {
+.caseimage,
+.dashboard {
 	width: 75%;
 	 margin: 0 auto;
 	 padding-top: 30px;
 	 padding-bottom: 30px;
 }
-.row {
+.dashboard-2 {
+	width: 500px;
+}
+.row-tab {
 	width: 100%;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: space-around;
 	padding-top: 1em;
-	align-items: flex-start;
+	align-items: center;
 }
 .casp-header-2,
 .casp-header-3,
@@ -1975,7 +1979,24 @@ h5 {
 	align-items: center;
 	padding-bottom: 50px;
 }
+.summary-para,
+.surveys-para,
+.survey-head,
+.comp-para
+{
+	width: 26em;
+}
+.user-survey,
+.comp-head,
+.comp-para-tab {
+	width: 19.5em;
+}
 
+.peony7 {
+	right: 0;
+	position: absolute;
+	padding-top: 35em;
+}
 }
 
 @media only screen and (max-width: 1600px) {}
