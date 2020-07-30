@@ -1989,13 +1989,15 @@ h5 {
 .summary-para,
 .surveys-para,
 .survey-head,
-.comp-para
+.comp-para,
+.personas
 {
 	width: 26em;
 }
 .user-survey,
 .comp-head,
-.comp-para-tab {
+.comp-para-tab,
+.roles {
 	width: 19.5em;
 }
 
