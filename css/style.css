@@ -168,10 +168,14 @@ header {
 
 .caseimage {
 	width: 100%;
+	padding-top: 2em;
+	padding-bottom: 2em;
 }
 
 .caseimage1 {
 	width: 100%;
+	padding-top: 2em;
+	padding-bottom: 2em;
 }
 
 .caseimage-2 {
@@ -221,6 +225,7 @@ header {
 	align-items: center;
 	padding-top: 2em;
 	padding-bottom: 2em;
+	/* align-self: center; */
 }
 
 .extra-space {
@@ -307,14 +312,20 @@ header {
 
 .dashboard-2 {
 	width: 290px;
+	padding-bottom: 2em;
+	padding-top: 2em;
 }
 
 .dashboard-3 {
 	width: 290px;
+	padding-bottom: 2em;
+	padding-top: 2em;
 }
 
 .dashboard-4 {
 	width: 290px;
+	padding-top: 2em;
+	padding-bottom: 2em;
 }
 
 
@@ -516,7 +527,8 @@ h2 {
 	padding-bottom: 58px;
 }
 
-h3 {
+
+.casp-font {
 	font-family: Cinzel;
 	font-style: normal;
 	font-weight: normal;
@@ -578,7 +590,8 @@ h6 {
 	display: flex;
 	align-items: center;
 	color: white;
-	padding-left: 20px;
+	/* padding-left: 20px; */
+	padding-top: 1em;
 }
 
 .roles2 {
@@ -654,7 +667,7 @@ h6 {
 }
 
 .personas-3 {
-	width: 16em;
+	width: 12em;
 	font-family: Montserrat;
 	font-weight: normal;
 	font-size: 18px;
@@ -694,6 +707,13 @@ h6 {
 	color: white;
 	width: 14.5em;
 	padding-bottom: 1em;
+}
+
+.persona-pic {
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	align-items: center;
 }
 
 .brand-char {
@@ -815,12 +835,7 @@ h6 {
 	text-align: left;
 	align-items: center;
 }
-.personasDesk {
-	display: flex;
-	flex-direction: column;
-	text-align: left;
-	align-items: center;
-}
+
 
 .casp-background-6 {
 	background: #007E8B;
@@ -1113,7 +1128,12 @@ h6 {
 	padding-bottom: 0px;
 	z-index: 8;
 }
-
+.userFlows,
+.wireframe {
+	display: flex;
+flex-direction: column;
+align-items: center;
+}
 .contact a {
 	text-decoration: none;
 	color: white;
@@ -1287,7 +1307,7 @@ h6 {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
-	width: 75%;
+	width: 45%;
 	padding: 5px;
 }
 
@@ -1312,7 +1332,17 @@ h6 {
 	display: flex;
 	align-items: baseline;
 }
+.left-align {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
 
+.user-testing {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
 .textarea {
 	width: 90%;
 }
@@ -1324,6 +1354,12 @@ h6 {
 .peony12 {
 	display: none;
 }
+.casp-logo {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/* width: 40%; */
+}
 
 .caseimage2,
 .brand-cloud-desk,
@@ -1331,11 +1367,16 @@ h6 {
 .casp-logo-desk,
 .sketch-desk,
 .sketch-desk-2,
-.casp-logo {
+.typo-tab,
+.cloud-tab,
+.casp-logo-tab {
 	display: none;
 }
-.personasDesk {
 
+.mock-desk{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
@@ -1357,6 +1398,12 @@ h6 {
 		left: 70px;
 		top: 150px;
 		padding-top: 0px;
+	}
+	.personasDesk {
+		display: flex;
+		flex-direction: column;
+		text-align: left;
+		align-items: center;
 	}
 	.hero,
 	.caspian,
@@ -1402,7 +1449,7 @@ h6 {
 		padding-bottom: 0px;
 		line-height: 38px;
 	}
-	h3, .intro {
+	.casp-font, .intro {
 		text-align: left;
 		padding-top: 1em;
 		padding-bottom: 1em;
@@ -1454,7 +1501,7 @@ h6 {
 		padding-left: 146px;
 		padding-top: 100px;
 	}
-	h3 {
+	.casp-font {
 		font-size: 64px;
 	}
 	.h_3, {
@@ -1517,7 +1564,7 @@ h6 {
 	.complex,
 	.about-para,
 	.about-please {
-		width: 584px;
+		width: 525px;
 	}
 	.boxes {
 		padding-right: 300px;
@@ -1542,8 +1589,10 @@ h6 {
 		margin-left: 146px;
 	}
 	.align {
+		text-align: left;
 		align-self: flex-start;
-		padding-left: 146px;
+		width: 100%;
+		padding-left: 7%;
 	}
 	.pic {
 		width: 500px;
@@ -1837,9 +1886,23 @@ padding: 1em;
 	justify-content: space-around;
 	align-self: center;
 }
+.cloud-tab,
+.sketch-tab {
+	display: none;
+}
 }
 
 @media only screen and (min-width: 600px) {
+	.left-align{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.persona-pic{
+		display: flex;
+		justify-content: 	center;
+	}
 	.logo {
 		width: 70px;
 		height: 108px;
@@ -1854,7 +1917,7 @@ padding: 1em;
 		position: relative;
 		font-size: 24px;
 		font-weight: normal;
-		left: 70px;
+		left: 100px;
 		top: 150px;
 		padding-top: 0px;
 	}
@@ -1888,7 +1951,7 @@ padding: 1em;
 	.welcome,
 	h5,
 	h6,
-	h3,
+	.casp-font,
 	.intro
 {
 		text-align: left;
@@ -1900,14 +1963,18 @@ padding: 1em;
  {
 	width: 500px;
 }
-h3,
+.casp-font,
 .complex,
 h5 {
 	padding-top: 100px;
 }
-.viewcase {
+.viewcase
+ {
 	float: left;
 	margin-left: 79px;
+}
+.view-user {
+
 }
 .space {
 	padding-left: 0px;
@@ -1937,7 +2004,7 @@ h5 {
 }
 .about-para,
 .about-please {
-	width: 475px;
+	width: 525px;
 }
 .boxes {
 	width: 80%;
@@ -1990,21 +2057,82 @@ h5 {
 .surveys-para,
 .survey-head,
 .comp-para,
-.personas
+.personas,
+.quote,
+.quote-it,
+.user-head,
+.personas-2
 {
 	width: 26em;
 }
 .user-survey,
 .comp-head,
-.comp-para-tab,
-.roles {
+.roles
+ {
 	width: 19.5em;
+}
+.personas-2 {
+	padding-bottom: 2em;
 }
 
 .peony7 {
 	right: 0;
 	position: absolute;
 	padding-top: 35em;
+}
+.wireframe {
+	width: 50%;
+}
+.cloud,
+.typo {
+	display: none;
+}
+.cloud-tab {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 75%;
+	padding-top: 1em;
+	padding-bottom: 3em;
+}
+.color {
+	width: 50%;
+}
+.casp-logo-tab {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 50%;
+}
+
+.casp-font-tab {
+	padding: 0px;
+	margin-left: 0px;
+}
+.sketch-tab {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 50%;
+}
+.typo-tab {
+	width: 70%;
+}
+.container-4 {
+	background-size: 40%;
+}
+.more {
+	padding-top: 2em;
+}
+.comp-para-tab {
+	display: flex;
+	flex-direction: column;
+	align-items:  flex-start;
+	align-self: center;
+}
+.align {
+	text-align: left;
+	align-self: center;
 }
 }
 
