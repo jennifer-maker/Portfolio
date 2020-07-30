@@ -1429,9 +1429,11 @@ align-items: center;
 		/* margin-left: 14em; */
 	}
 	.hero h1,
-	.complex,
 	h5 {
 		padding-top: 200px;
+	}
+	.about-page {
+		padding-top: 100px;
 	}
 	.hero h1,
 	.hero h2,
@@ -1561,11 +1563,7 @@ align-items: center;
 	.peony7 {
 		padding-top: 20em;
 	}
-	.complex,
-	.about-para,
-	.about-please {
-		width: 525px;
-	}
+
 	.boxes {
 		padding-right: 300px;
 		padding-left: 3em;
@@ -1591,7 +1589,6 @@ align-items: center;
 	.align {
 		text-align: left;
 		align-self: flex-start;
-		width: 100%;
 		padding-left: 7%;
 	}
 	.pic {
@@ -2132,7 +2129,10 @@ h5 {
 }
 .align {
 	text-align: left;
-	align-self: center;
+	align-self: left;
+}
+.about-page{
+padding-top: 100px;
 }
 }
 
