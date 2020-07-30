@@ -300,6 +300,8 @@ header {
 	position: relative;
 	top: 0;
 	display: flex;
+	padding-top: 1em;
+	padding-bottom: 1em;
 	align-items: center;
 }
 
@@ -1955,7 +1957,12 @@ h5 {
 	 padding-top: 30px;
 	 padding-bottom: 30px;
 }
-.dashboard-2 {
+.dashboard-2,
+.dashboard-3,
+.dashboard-4
+ {
+	 padding-top: 2em;
+    padding-bottom: 1em;
 	width: 500px;
 }
 .row-tab {
