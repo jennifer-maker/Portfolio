@@ -197,7 +197,9 @@ header {
 .about-pic-desk {
 	display: none;
 }
-
+.spacing {
+	padding-bottom: 2em;
+}
 .icon-name {
 	padding-top: .5em;
 	padding-bottom: 2em;
@@ -951,6 +953,7 @@ h6 {
 	display: flex;
 	align-items: center;
 	text-align: center;
+	justify-content: center;
 }
 
 .casp-header-2 {
@@ -1639,92 +1642,12 @@ padding-top: 100px;
 		width: 90px;
 		height: 128px;
 	}
-	.topbar {
-		position: fixed;
-		top: 0;
-		width: 100%;
-	}
-	.topnav {
-		transform: rotate(90deg);
-		position: relative;
-		font-size: 24px;
-		font-weight: normal;
-		left: 70px;
-		top: 150px;
-		padding-top: 0px;
-	}
+
 	.personasDesk {
 		display: flex;
 		flex-direction: column;
 		text-align: left;
 		align-items: center;
-	}
-	.hero,
-	.caspian,
-	.final,
-	.hero-contact,
-	.contact-bottomnav,
-	.casp-background-1,
-	.extra,
-	.casp-background-2,
-	.casp-background-22,
-	.about-page,
-	.casp-background-4,
-	.casp-header,
-	.casp-background-5,
-	.casp-background-6,
-	.casp-background-33,
-	.bottomnav {
-		background-image: url(../images/background-lines-desktop.png);
-		background-position: center;
-		background-repeat: repeat-y;
-		width: 100%;
-		padding-left: 5em;
-		padding-right: 5em;
-		/* margin-left: 14em; */
-	}
-	.hero h1,
-	h5 {
-		padding-top: 200px;
-	}
-	.about-page {
-		padding-top: 100px;
-	}
-	.hero h1,
-	.hero h2,
-	.welcome1,
-	.welcome,
-	h5,
-	h6 {
-		text-align: left;
-		/* padding-left: 146px; */
-	}
-	.welcome1,
-	.welcome,
-	h5 {
-		/* width: 700px; */
-		padding-bottom: 0px;
-		line-height: 38px;
-	}
-	.casp-font, .intro {
-		text-align: left;
-		padding-top: 1em;
-		padding-bottom: 1em;
-		line-height: 38px;
-		margin-left: 1em;
-	}
-
-	.space,
-	h5 {
-		text-align: left;
-		padding-bottom: 100px;
-		text-align: left;
-		/* width: 700px; */
-		/* padding-left: 0; */
-	}
-	.bigger {
-		padding-bottom: 50px;
-		padding-top: 120px;
 	}
 	.caspian {
 		display: flex;
@@ -1751,8 +1674,24 @@ padding-top: 100px;
 	.right .caseimage2 {
 		height: 100%;
 		width: 100%;
-		/* align-self: stretch; */
 	}
+	.caseimage1,
+	.dashboard {
+		display: none;
+	}
+	.space,
+	h5 {
+		text-align: left;
+		padding-bottom: 100px;
+		text-align: left;
+
+	}
+	.bigger {
+		padding-bottom: 50px;
+		padding-top: 120px;
+	}
+
+
 	.final {
 		align-items: flex-start;
 		padding-left: 146px;
@@ -1761,6 +1700,59 @@ padding-top: 100px;
 	.casp-font {
 		font-size: 64px;
 	}
+	.casp-desktop {
+		display: flex;
+		flex-direction: column;
+
+		width: 50%;
+	}
+	.row,
+	.row-tab{
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		padding-top: 1em;
+		align-items: flex-start;
+	}
+	.dashboard-2,
+	.dashboard-3,
+	.dashboard-4 {
+		width: 75%;
+	}
+	/**
+	.hero h1,
+	h5 {
+		padding-top: 200px;
+	}
+	.about-page {
+		padding-top: 100px;
+	}
+	.hero h1,
+	.hero h2,
+	.welcome1,
+	.welcome,
+	h5,
+	h6 {
+		text-align: left;
+
+	}
+	.welcome1,
+	.welcome,
+	h5 {
+
+		padding-bottom: 0px;
+		line-height: 38px;
+	}
+	.casp-font, .intro {
+		text-align: left;
+		padding-top: 1em;
+		padding-bottom: 1em;
+		line-height: 38px;
+		margin-left: 1em;
+	}
+
+
 	.h_3, {
 		font-size: 64px;
 		padding-bottom: 100px;
@@ -1777,7 +1769,7 @@ padding-top: 100px;
 	}
 	.viewcase {
 		float: left;
-		/* margin-left: 3em; */
+
 	}
 	.peony1 img,
 	.peony2 img,
@@ -1806,7 +1798,8 @@ padding-top: 100px;
 	.caseimage1,
 	.about-image,
 	.caseimage,
-	.view-proto {
+	.view-proto,
+	.casp-logo-tab {
 		display: none;
 	}
 	.bottomnav {
@@ -1821,7 +1814,7 @@ padding-top: 100px;
 
 	.boxes {
 		padding-right: 300px;
-		/* padding-left: 3em; */
+
 	}
 	label {
 		padding-right: 200px;
@@ -1855,12 +1848,7 @@ padding-top: 100px;
 	.casp-background-5 {
 		padding-bottom: 2em;
 	}
-	.casp-desktop {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		width: 60%;
-	}
+
 	.more-space,
 	.casp-background-6 {
 		padding-top: 50px;
@@ -1904,14 +1892,8 @@ padding-top: 100px;
 		text-align: left;
 		padding-top: 1em;
 	}
-	.row {
-		width: 100%;
-		display: flex;
-		flex-direction: row;
-		justify-content: space-around;
-		padding-top: 1em;
-		align-items: flex-start;
-	}
+
+
 	.personasDesk {
 		display: flex;
 		flex-direction: column;
@@ -1962,7 +1944,7 @@ padding-top: 100px;
 		flex-direction: column;
 		align-self: flex-start;
 		width: 400px;
-		/* padding-left: 2.5em; */
+
 	}
 	.view-user-desk,
 	.view-user,
@@ -2019,7 +2001,6 @@ padding-top: 100px;
 	display: flex;
 	flex-direction: row;
 	align-self: flex-start;
-	/* padding-left: 2.5em; */
 }
 
 .visual-design {
