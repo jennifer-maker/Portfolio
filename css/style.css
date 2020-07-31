@@ -1717,6 +1717,9 @@ h5 {
 .personas-2 {
 	width: 300px;
 }
+h5 {
+	padding-top: 5em;
+}
 .user-survey-desk {
 	display: flex;
 	flex-direction: column;
@@ -1724,9 +1727,7 @@ h5 {
 	align-self: flex-start;
 	width: 500px;
 }
-h5 {
-	padding-top: 5em;
-}
+
 .caseimage-2,
 .caseimage-3,
 .flow-1,
