@@ -82,7 +82,6 @@ header {
 .bottomnav {
 	font-family: Raleway;
 	font-weight: normal;
-	width: 100%;
 	padding-bottom: 50px;
 	padding-top: 5em;
 	text-align: center;
@@ -90,6 +89,7 @@ header {
 	font-size: 18px;
 	line-height: 16px;
 	z-index: 99;
+
 }
 
 .bottomnav a {
@@ -98,7 +98,8 @@ header {
 	padding-right: 25px;
 }
 
-.nav-lines {
+.nav-lines,
+.bottomnav {
 	background-image: url(../images/BackgroundLines.png);
 	background-position: center;
 	background-repeat: repeat-y;
@@ -1419,7 +1420,8 @@ align-items: center;
 	.casp-header,
 	.casp-background-5,
 	.casp-background-6,
-	.casp-background-33 {
+	.casp-background-33,
+	.bottomnav {
 		background-image: url(../images/background-lines-desktop.png);
 		background-position: center;
 		background-repeat: repeat-y;
@@ -1933,7 +1935,8 @@ padding: 1em;
 	.casp-background-5,
 	.casp-background-6,
 	.casp-background-33,
-	.nav-lines {
+	.nav-lines,
+	.bottomnav {
 		background-image: url(../images/background-lines-tab.png);
 		background-position: center;
 		background-repeat: repeat-y;
@@ -2081,7 +2084,8 @@ h5 {
 	width: 50%;
 }
 .cloud,
-.typo {
+.typo,
+.casp-logo {
 	display: none;
 }
 .cloud-tab {
@@ -2113,6 +2117,9 @@ h5 {
 	width: 50%;
 }
 .typo-tab {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	width: 70%;
 }
 .container-4 {
