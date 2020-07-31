@@ -372,12 +372,7 @@ justify-content: flex-end;
 width: 50%;
 }
 
-.peony3 {
-bottom: 100px;
-display: flex;
-flex-direction: row;
-justify-content: flex-end;
-}
+.peony3 {bottom: 100px;display: flex;flex-direction: row;justify-content: flex-end;}
 
 .peony3 img {
 width: 50%;
@@ -1681,7 +1676,7 @@ h5 {
 .final {
 	align-items: flex-start;
 	padding-left: 146px;
-	padding-top: 100px;
+	/* padding-top: 100px; */
 }
 .casp-font {
 	font-size: 64px;
