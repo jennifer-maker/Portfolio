@@ -1703,7 +1703,6 @@ padding-top: 100px;
 	.casp-desktop {
 		display: flex;
 		flex-direction: column;
-
 		width: 50%;
 	}
 	.row,
@@ -1719,6 +1718,19 @@ padding-top: 100px;
 	.dashboard-3,
 	.dashboard-4 {
 		width: 75%;
+	}
+	.summary-para, .surveys-para, .survey-head, .comp-para, .personas, .quote, .quote-it, .user-head, .personas-2 {
+		width: 300px;
+	}
+	.user-survey-desk {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		align-self: flex-start;
+		width: 500px;
+	}
+	h5 {
+		padding-top: 5em;
 	}
 	/**
 	.hero h1,
