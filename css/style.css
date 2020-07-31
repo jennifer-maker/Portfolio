@@ -1727,6 +1727,12 @@ h5 {
 h5 {
 	padding-top: 5em;
 }
+.caseimage-2,
+.caseimage-3,
+.flow-1,
+.wireframe {
+width: 25%;
+}
 .left-align {
 	padding-left: 50px;
 	display: flex;
@@ -1739,12 +1745,7 @@ flex-wrap: wrap;
 flex-direction: row;
 justify-content: space-around;
 }
-.caseimage-2,
-.caseimage-3,
-.flow-1,
-.wireframe {
-width: 15%;
-}
+
 }
 /**
 .hero h1,
