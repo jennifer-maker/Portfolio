@@ -17,7 +17,7 @@ font-size: 10px;
 
 header {
 background: #007E8B;
-background-image: url(../images/BackgroundLines.png);
+background-image: url(../Images/BackgroundLines.png);
 background-position: center;
 background-repeat: repeat-y;
 width: 100%;
@@ -26,7 +26,7 @@ width: 100%;
 
 /***
 .topbar {
-background-image: url(../images/BackgroundLines.png);
+background-image: url(../Images/BackgroundLines.png);
 background-position: center;
 background-repeat: repeat-y;
 width: 100%;
@@ -35,7 +35,7 @@ width: 100%;
 
 .contacts-header {
 background: #073953;
-background-image: url(../images/BackgroundLines.png);
+background-image: url(../Images/BackgroundLines.png);
 background-position: center;
 background-repeat: repeat-y;
 width: 100%;
@@ -49,7 +49,7 @@ padding-top: 20px;
 }
 
 .about-page {
-background-image: url(../images/BackgroundLines.png);
+background-image: url(../Images/BackgroundLines.png);
 background-position: center;
 background-repeat: repeat-y;
 width: 100%;
@@ -99,19 +99,19 @@ padding-right: 25px;
 
 .nav-lines,
 .bottomnav {
-background-image: url(../images/BackgroundLines.png);
+background-image: url(../Images/BackgroundLines.png);
 background-position: center;
 background-repeat: repeat-y;
 width: 100%;
 }
 
 .container {
-background: #FF5A5F url(../images/logo/peony4.png) no-repeat bottom left;
+background: #FF5A5F url(../Images/logo/peony4.png) no-repeat bottom left;
 background-size: 40%;
 }
 
 .container-2 {
-background: #007E8B url(../images/logo/peony5.png) no-repeat bottom right;
+background: #007E8B url(../Images/logo/peony5.png) no-repeat bottom right;
 background-size: 50%;
 }
 
@@ -120,13 +120,13 @@ float: right;
 }
 
 .container-4 {
-background: #FF5A5F url(../images/logo/peony9.png) no-repeat bottom right;
+background: #FF5A5F url(../Images/Logo/peony9.png) no-repeat bottom right;
 background-size: 70%;
 padding: 0px;
 }
 
 .container-5 {
-background: #073953 url(../images/logo/peony9.png) no-repeat bottom right;
+background: #073953 url(../Images/Logo/peony9.png) no-repeat bottom right;
 background-size: 70%;
 padding: 0px;
 }
@@ -138,7 +138,7 @@ padding-right: 0px;
 .contact-bottomnav {
 font-family: Raleway;
 font-weight: normal;
-background-image: url(../images/BackgroundLines.png);
+background-image: url(../Images/BackgroundLines.png);
 background-position: center;
 background-repeat: repeat-y;
 width: 100%;
@@ -337,7 +337,7 @@ padding-bottom: 2em;
 
 .hero {
 background: #007E8B;
-background-image: url(../images/BackgroundLines.png);
+background-image: url(../Images/BackgroundLines.png);
 background-position: center;
 background-repeat: repeat-y;
 width: 100%;
@@ -390,7 +390,7 @@ width: 50%;
 /* justify-content: flex-end; */
 /* display: inline-flex; */
 /* background-color: #007E8B; */
-/* background-image: url(../images/BackgroundLines.png); */
+/* background-image: url(../Images/BackgroundLines.png); */
 /* background-position: center; */
 /* background-repeat: repeat-y; */
 /* width: 100%; */
@@ -438,7 +438,7 @@ width: 50%;
 }
 
 .hero-contact {
-background-image: url(../images/BackgroundLines.png);
+background-image: url(../Images/BackgroundLines.png);
 background-position: center;
 background-repeat: repeat-y;
 width: 100%;
@@ -449,7 +449,7 @@ align-items: center;
 
 .blue {
 background: #073953;
-background-image: url(../images/BackgroundLines.png);
+background-image: url(../Images/BackgroundLines.png);
 background-position: center;
 background-repeat: repeat-y;
 width: 100%;
@@ -457,7 +457,7 @@ width: 100%;
 
 .teal {
 background: #007E8B;
-background-image: url(../images/BackgroundLines.png);
+background-image: url(../Images/BackgroundLines.png);
 background-position: center;
 background-repeat: repeat-y;
 width: 100%;
@@ -465,7 +465,7 @@ width: 100%;
 
 .pink {
 background: #FF5A5F;
-background-image: url(../images/BackgroundLines.png);
+background-image: url(../Images/BackgroundLines.png);
 background-position: center;
 background-repeat: repeat-y;
 width: 100%;
@@ -757,7 +757,7 @@ color: white;
 
 .casp-background-1 {
 background: #007E8B;
-background-image: url(../images/BackgroundLines.png);
+background-image: url(../Images/BackgroundLines.png);
 background-position: center;
 background-repeat: repeat-y;
 width: 100%;
@@ -767,7 +767,7 @@ text-align: center;
 
 .casp-background-2 {
 background: #073953;
-background-image: url(../images/BackgroundLines.png);
+background-image: url(../Images/BackgroundLines.png);
 background-position: center;
 background-repeat: repeat-y;
 width: 100%;
@@ -779,7 +779,7 @@ text-align: center;
 
 .casp-background-22 {
 background: #073953;
-background-image: url(../images/BackgroundLines.png);
+background-image: url(../Images/BackgroundLines.png);
 background-position: center;
 background-repeat: repeat-y;
 width: 100%;
@@ -791,14 +791,14 @@ align-items: left;
 
 .casp-background-3 {
 background: #FF5A5F;
-background-image: url(../images/BackgroundLines.png);
+background-image: url(../Images/BackgroundLines.png);
 background-position: center;
 background-repeat: repeat-y;
 width: 100%;
 }
 
 .casp-background-33 {
-background-image: url(../images/BackgroundLines.png);
+background-image: url(../Images/BackgroundLines.png);
 background-position: center;
 background-repeat: repeat-y;
 width: 100%;
@@ -810,7 +810,7 @@ text-align: center;
 
 .casp-background-4 {
 background: #007E8B;
-background-image: url(../images/BackgroundLines.png);
+background-image: url(../Images/BackgroundLines.png);
 background-position: center;
 background-repeat: repeat-y;
 width: 100%;
@@ -824,7 +824,7 @@ padding-bottom: 2em;
 
 .casp-background-5 {
 background: #073953;
-background-image: url(../images/BackgroundLines.png);
+background-image: url(../Images/BackgroundLines.png);
 background-position: center;
 background-repeat: repeat-y;
 width: 100%;
@@ -836,7 +836,7 @@ align-items: center;
 
 .casp-background-6 {
 background: #007E8B;
-background-image: url(../images/BackgroundLines.png);
+background-image: url(../Images/BackgroundLines.png);
 background-position: center;
 background-repeat: repeat-y;
 width: 100%;
@@ -1005,7 +1005,7 @@ padding-bottom: 2em;
 top: 2530px;
 padding-top: 30px;
 background: #007E8B;
-background-image: url(../images/BackgroundLines.png);
+background-image: url(../Images/BackgroundLines.png);
 background-position: center;
 background-repeat: repeat-y;
 width: 100%;
@@ -1055,7 +1055,7 @@ color: white;
 
 .caspian {
 background: #073953;
-background-image: url(../images/BackgroundLines.png);
+background-image: url(../Images/BackgroundLines.png);
 background-position: center;
 background-repeat: repeat-y;
 width: 100%;
@@ -1083,7 +1083,7 @@ color: white;
 }
 
 .final {
-background-image: url(../images/BackgroundLines.png);
+background-image: url(../Images/BackgroundLines.png);
 background-position: center;
 background-repeat: repeat-y;
 width: 100%;
@@ -1292,7 +1292,7 @@ align-items: center;
 
 .extra {
 background: #007E8B;
-background-image: url(../images/BackgroundLines.png);
+background-image: url(../Images/BackgroundLines.png);
 background-position: center;
 background-repeat: repeat-y;
 width: 100%;
@@ -1431,7 +1431,7 @@ align-items: center;
 .casp-background-33,
 .nav-lines,
 .bottomnav {
-	background-image: url(../images/background-lines-tab.png);
+	background-image: url(../Images/background-lines-tab.png);
 	background-position: center;
 	background-repeat: repeat-y;
 	width: 100%;
@@ -1844,19 +1844,19 @@ h6 {
 	align-self: flex-end;
 }
 .container {
-	background: #FF5A5F url(../images/logo/peony10.png) no-repeat bottom right;
+	background: #FF5A5F url(../Images/Logo/peony10.png) no-repeat bottom right;
 	background-size: 40%;
 }
 .container-2 {
-	background-image: url(../images/logo/peony11.png) no-repeat top right;
+	background-image: url(../Images/Logo/peony11.png) no-repeat top right;
 	background-size: 40%;
 }
 .container-5 {
-	background: #073953 url(../images/logo/peony10.png) no-repeat bottom right;
+	background: #073953 url(../Images/Logo/peony10.png) no-repeat bottom right;
 	background-size: 40%;
 }
 .container-visual {
-	background-image: url(../images/logo/peony3.png) no-repeat top right;
+	background-image: url(../Images/Logo/peony3.png) no-repeat top right;
 	background-size: 40%;
 }
 .peony3 img,
@@ -1935,7 +1935,7 @@ label {
 	color: white;
 }
 .desk-lines {
-	background-image: url(../images/cloud-desktop.png);
+	background-image: url(../Images/cloud-desktop.png);
 	background-position: right;
 	background-size: 50%;
 	background-repeat: no-repeat;
@@ -2191,7 +2191,7 @@ display: none;
 .nav-lines,
 .bottomnav {
 
-	background-image: url(../images/background-lines-desk.png);
+	background-image: url(../Images/background-lines-desk.png);
 	background-position: center;
 	background-repeat: repeat-y;
 	width: 100%;
