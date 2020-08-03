@@ -1748,17 +1748,27 @@ h5 {
 .casp-background-5,
 .casp-background-6,
 .casp-background-2,
-.casp-background-33 {
-	padding-left: 5px;
-	padding-right: 5px;
+.casp-background-33,
+.casp-background-5 {
+	padding-left: 50px;
+	padding-right: 50px;
 }
 
 .flow-1,
 .wireframe {
-width: 25%;
+width: 115%;
+}
+.wireframe {
+	display: flex;
+	padding-right: 1em;
+	flex-direction: row;
+	align-items: flex-start;
+	width: 150%;
+}
+.space-desk {
+	padding-top: 1em;
 }
 .left-align {
-	padding-left: 50px;
 	display: flex;
 	align-items: center;
 	width: 290px;
@@ -1899,10 +1909,11 @@ label {
 .pic-space {
 	padding-top: 5em;
 }
-.casp-background-5 {
+.casp-background-5,
+.about-please {
+	padding-top: 2em;
 	padding-bottom: 2em;
 }
-
 
 .casp-background-6 {
 	padding-top: 50px;
@@ -1934,8 +1945,10 @@ label {
 	background-size: 50%;
 	background-repeat: no-repeat;
 }
-.about-para {
-	padding-bottom: 0px;
+.about-para,
+.about-please {
+	padding-left: 150px;
+	width: 600px;
 }
 .casp-header-2,
 .casp-header-3,
@@ -1975,24 +1988,16 @@ label {
 	padding-left: 0px;
 }
 .user-survey,
-.surveys-para {
-	display: flex;
-	flex-direction: column;
-	align-self: flex-start;
-	width: 500px;
-}
-.comp-para-1 {
-	padding-left: 0px;
-	width: 290px;
-}
+.surveys-para,
 .comp-head,
 .comp-para,
-.personas {
+.personas{
 	display: flex;
 	flex-direction: column;
 	align-self: flex-start;
 	width: 500px;
 }
+
 .roles {
 	display: flex;
 	flex-direction: column;
@@ -2017,14 +2022,7 @@ label {
 .title {
 	padding-top: 1em;
 }
-.flow-1 {
-	width: 35%;
-	align-self: flex-start;
-}
-.wireframe {
-	width: 40%;
-	margin-left: 4em;
-}
+
 
 
 .about-pic-desk {
