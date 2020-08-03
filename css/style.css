@@ -1948,13 +1948,14 @@ label {
 .casp-header-2,
 .casp-header-3,
 .casp-header-4,
-.roles,
-.personas-3 {
+.roles {
 	align-items: flex-start;
 	text-align: left;
 	padding-top: 1em;
 }
-
+.peony8 {
+	width: 65%;
+}
 
 .personasDesk {
 	display: flex;
