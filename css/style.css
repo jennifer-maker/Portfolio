@@ -1466,8 +1466,8 @@ h6 {
 		padding-top: 100px;
 	}
 	.viewcase {
-		float: left;
-		margin-left: 85px;
+		/* float: left; */
+		/* margin-left: 85px; */
 	}
 	.view-user {}
 	.space {
@@ -1832,7 +1832,8 @@ h6 {
 		padding-bottom: 50px;
 	}
 	.viewcase {
-		float: left;
+		/* float: left; */
+		margin-left: 100px;
 	}
 	.peony1 img,
 	.peony2 img,
@@ -2140,6 +2141,11 @@ h6 {
 	.sketch-tab {
 		display: none;
 	}
+  h5 {
+    margin: 0px;
+    padding-left: 100px;
+    padding-bottom: 30px;
+  }
 }
 
 @media only screen and (min-width: 1100px) {
