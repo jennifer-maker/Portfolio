@@ -159,8 +159,8 @@ width: 100%;
 
 .space {
 	padding-bottom: 45px;
-	padding-left: 33px;
-	padding-right: 33px;
+	/* padding-left: 33px; */
+	/* padding-right: 33px; */
 }
 
 
@@ -449,7 +449,8 @@ width: 100%;
 	width: 100%;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	align-items: flex-start;
+	padding-left: 10%;
 }
 
 .blue {
@@ -508,8 +509,8 @@ h1 {
 	font-weight: 300;
 	font-size: 64px;
 	line-height: 50px;
-	padding-left: 29px;
-	padding-right: 29px;
+	/* padding-left: 29px; */
+	/* padding-right: 29px; */
 	padding-top: 30px;
 	padding-bottom: 25px;
 	align-items: center;
@@ -526,8 +527,8 @@ h2 {
 	align-items: center;
 	text-align: center;
 	color: white;
-	padding-left: 38px;
-	padding-right: 38px;
+	/* padding-left: 38px; */
+	/* padding-right: 38px; */
 	padding-bottom: 58px;
 }
 
@@ -565,7 +566,7 @@ h5 {
 	font-size: 40px;
 	line-height: 53px;
 	display: flex;
-	align-items: center;
+	/* align-items: center; */
 	text-align: center;
 	color: white;
 	padding-top: 1em;
@@ -1032,8 +1033,8 @@ h6 {
 /*** Text ***/
 
 .welcome1 {
-	padding-left: 39px;
-	padding-right: 39px;
+	padding-left: 10%;
+	padding-right: 10%;
 	padding-bottom: 28px;
 	align-items: center;
 	text-align: center;
@@ -1046,8 +1047,8 @@ h6 {
 }
 
 .welcome {
-	padding-left: 39px;
-	padding-right: 39px;
+	padding-left: 10%;
+	padding-right: 10%;
 	align-items: center;
 	text-align: center;
 	font-family: Raleway;
@@ -1075,9 +1076,9 @@ h6 {
 
 .intro {
 	padding-bottom: 50px;
-	padding-left: 39px;
-	padding-right: 39px;
 	align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
 	text-align: center;
 	font-family: Raleway;
 	font-style: normal;
@@ -1085,6 +1086,11 @@ h6 {
 	font-size: 24px;
 	line-height: 36px;
 	color: white;
+}
+.cloudy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .final {
@@ -1104,6 +1110,8 @@ h6 {
 	align-items: center;
 	position: relative;
 	z-index: 5;
+	padding-left: 10%;
+	padding-right: 10%;
 }
 
 .contact {
@@ -1178,8 +1186,8 @@ h6 {
 	background-color: #007E8B;
 	border-radius: 12px;
 	padding-top: 18px;
-	margin-left: auto;
-	margin-right: auto;
+	/* margin-left: auto; */
+	/* margin-right: auto; */
 }
 
 .viewcase a {
@@ -1453,12 +1461,22 @@ h6 {
 	.casp-font,
 	.intro {
 		text-align: left;
-		padding-left: 39px;
-		margin-left: 40px;
+		padding-left: 10%;
 	}
+  .casp-font {
+    padding-left: 10%;
+  }
+  .cloudy {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 10%;
+  }
 	.welcome,
 	.intro {
-		width: 500px;
+		padding-left: 10%;
+		padding-right: 10%;
+		/* width: 600px; */
 	}
 	.casp-font,
 	.complex,
@@ -1471,7 +1489,7 @@ h6 {
 	}
 	.view-user {}
 	.space {
-		padding-left: 0px;
+		/* padding-left: 0px; */
 		padding-bottom: 3em;
 	}
 	.bigger {
@@ -1479,7 +1497,8 @@ h6 {
 	}
 	.tab {
 		text-align: left;
-		width: 500px;
+		/* width: 500px; */
+		padding-left: 10%;
 	}
 	.caseimage1 {
 		width: 70%;
@@ -1596,8 +1615,7 @@ h6 {
 		width: 50%;
 	}
 	.casp-font-tab {
-		padding: 0px;
-		margin-left: 0px;
+
 	}
 	.sketch-tab {
 		display: flex;
@@ -1755,8 +1773,8 @@ h6 {
 	.casp-background-2,
 	.casp-background-33,
 	.casp-background-5 {
-		padding-left: 50px;
-		padding-right: 50px;
+		padding-left: 100px;
+		padding-right: 100px;
 	}
 	.flow-1,
 	.wireframe {
@@ -1833,7 +1851,7 @@ h6 {
 	}
 	.viewcase {
 		/* float: left; */
-		margin-left: 100px;
+		/* margin-left: 100px; */
 	}
 	.peony1 img,
 	.peony2 img,
@@ -1876,7 +1894,7 @@ h6 {
 		padding-top: 20em;
 	}
 	.boxes {
-		padding-right: 300px;
+		/* padding-right: 300px; */
 	}
 	label {
 		padding-right: 200px;
@@ -2143,7 +2161,7 @@ h6 {
 	}
   h5 {
     margin: 0px;
-    padding-left: 100px;
+    /* padding-left: 100px; */
     padding-bottom: 30px;
   }
 }
