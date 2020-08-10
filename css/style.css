@@ -1826,6 +1826,10 @@ h6 {
 		padding-bottom: 0px;
 		line-height: 38px;
 	}
+  .welcome,
+  .welcome1 {
+    width: 700px;
+  }
 	.casp-font,
 	.intro {
 		text-align: left;
@@ -2164,6 +2168,7 @@ h6 {
     margin: 0px;
     /* padding-left: 100px; */
     padding-bottom: 30px;
+    padding-left: 0px;
   }
 }
 
