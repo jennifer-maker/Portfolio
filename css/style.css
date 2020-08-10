@@ -453,6 +453,7 @@ width: 100%;
 	flex-direction: column;
 	align-items: flex-start;
 	padding-left: 10%;
+	padding-right: 10%;
 }
 
 .blue {
@@ -485,7 +486,7 @@ width: 100%;
 	font-weight: normal;
 	font-size: 18px;
 	line-height: 30px;
-	padding-left: 25px;
+	/* padding-left: 25px; */
 	width: 100%;
 	color: white;
 	padding-bottom: 40px;
@@ -1252,12 +1253,13 @@ h6 {
 	text-align: center;
 	background-color: #007E8B;
 	border-radius: 12px;
-  color: -internal-light-dark(buttontext, rgb(0, 126, 139));
-    background-color: -internal-light-dark(rgb(0, 126, 139));
+	color: -internal-light-dark(buttontext, rgb(0, 126, 139));
+	background-color: -internal-light-dark(rgb(0, 126, 139));
 	border: none;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	margin-left: 10%;
 }
 
 .peony7 {
