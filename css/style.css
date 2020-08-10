@@ -1253,7 +1253,7 @@ h6 {
 	text-align: center;
 	background-color: #007E8B;
 	border-radius: 12px;
-	color: -internal-light-dark(buttontext, rgb(0, 126, 139));
+	color: -internal-light-dark(buttontext, rgb(255, 255, 255));
 	background-color: -internal-light-dark(rgb(0, 126, 139));
 	border: none;
 	display: flex;
