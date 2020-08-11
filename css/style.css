@@ -435,9 +435,11 @@ width: 100%;
 }
 
 .peony7 {
-	right: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	/* right: 0; */
 	position: absolute;
-	padding-top: 45em;
 }
 
 .peony8 {
@@ -1415,7 +1417,10 @@ h6 {
 .typo-tab,
 .cloud-tab,
 .casp-logo-tab,
-.peony12 {
+.peony12,
+.peony1-tab,
+.peony2-tab,
+.peony3-tab {
 	display: none;
 }
 
@@ -1538,9 +1543,44 @@ h6 {
 	.container-5 {
 		background-size: 40%;
 	}
-	.peony3 {
-		align-self: flex-end;
-	}
+  .peony1,
+  .peony2,
+  	.peony3  {
+    display: none;
+  }
+
+  .peony1-tab {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .peony1-tab img {
+    width: 50%;
+  }
+
+  .peony2-tab {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .peony2-tab img {
+    width: 70%;
+  }
+   .peony3-tab {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: flex-end;
+      align-self: flex-end;
+    }
+
+    .peony3-tab img {
+      width: 60%;
+    }
+
+
 	.about-para,
 	.about-please {
 		width: 525px;
@@ -1557,6 +1597,7 @@ h6 {
 		width: 500px;
 		padding-bottom: 50px;
 	}
+
 	.caseimage,
 	.dashboard {
 		width: 75%;
@@ -1892,8 +1933,8 @@ h6 {
 		align-self: flex-end;
 	}
 	.container {
-		background: #FF5A5F url(../Images/Logo/peony10.png) no-repeat bottom right;
-		background-size: 40%;
+		background: #FF5A5F url(../Images/Logo/peony10.png) no-repeat bottom left;
+		background-size: 30%;
 	}
 	.container-2 {
 		background-image: url(../Images/Logo/peony11.png) no-repeat top right;
