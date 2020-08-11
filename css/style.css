@@ -2004,9 +2004,7 @@ padding-top: 35em;
 	.pic {
 		width: 500px;
 	}
-	.pic-space {
-		padding-top: 5em;
-	}
+
 	.casp-background-5,
 	.about-please {
 		padding-top: 2em;
@@ -2117,11 +2115,12 @@ padding-top: 35em;
 	.title {
 		padding-top: 1em;
 	}
-	.about-pic-desk {
+	.about-image-desk {
 		display: flex;
 		width: 70%;
 		flex-direction: column;
 		align-self: center;
+    padding-top: 3em;
 	}
 	.user-testing {
 		display: flex;
