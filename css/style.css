@@ -193,7 +193,8 @@ width: 100%;
 	border-radius: 25px;
 }
 
-.about-pic-desk {
+.about-pic-desk,
+.about-image-desk {
 	display: none;
 }
 
