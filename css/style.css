@@ -1387,9 +1387,6 @@ h6 {
 	padding-top: 5em;
 }
 
-.peony12 {
-	display: none;
-}
 
 .casp-logo {
 	display: flex;
@@ -1406,7 +1403,8 @@ h6 {
 .sketch-desk-2,
 .typo-tab,
 .cloud-tab,
-.casp-logo-tab {
+.casp-logo-tab,
+.peony12 {
 	display: none;
 }
 
