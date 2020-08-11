@@ -376,7 +376,6 @@ width: 100%;
 }
 
 .peony1 img {
-	width: 50%;
 }
 
 .peony2 {
@@ -386,21 +385,18 @@ width: 100%;
 }
 
 .peony2 img {
-	width: 50%;
 }
 
 .peony3 {
-	bottom: 100px;
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-end;
+  align-items: flex-end;
+  align-self: flex-end;
 }
 
 .peony3 img {
-	width: 50%;
-	float: left;
 }
-
 .peony4 {}
 
 .peony4 img {
