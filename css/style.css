@@ -435,11 +435,12 @@ width: 100%;
 }
 
 .peony7 {
-	display: flex;
-	flex-direction: column;
-	align-items: flex-end;
-	/* right: 0; */
-	position: absolute;
+
+  display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    /* right: 0; */
+    position: absolute;
 }
 
 .peony8 {
@@ -1306,7 +1307,7 @@ h6 {
 }
 
 .peony8 img {
-	width: 50%;
+	width: 100%;
 }
 
 .visual-design {
@@ -1420,7 +1421,8 @@ h6 {
 .peony12,
 .peony1-tab,
 .peony2-tab,
-.peony3-tab {
+.peony3-tab,
+.peony8-tab {
 	display: none;
 }
 
@@ -1545,7 +1547,8 @@ h6 {
 	}
   .peony1,
   .peony2,
-  	.peony3  {
+  	.peony3,
+    .peony8  {
     display: none;
   }
 
@@ -1568,7 +1571,7 @@ h6 {
   .peony2-tab img {
     width: 70%;
   }
-   .peony3-tab {
+ .peony3-tab {
       display: flex;
       flex-direction: row;
       justify-content: flex-end;
@@ -1576,10 +1579,22 @@ h6 {
       align-self: flex-end;
     }
 
-    .peony3-tab img {
+.peony3-tab img {
       width: 60%;
     }
 
+.peony8-tab {
+
+       display: flex;
+       flex-direction: row;
+       justify-content: flex-end;
+       align-items: flex-end;
+       align-self: flex-end;
+     }
+
+     .peony8-tab img {
+       width: 40%;
+     }
 
 	.about-para,
 	.about-please {
@@ -1653,9 +1668,9 @@ h6 {
 		padding-bottom: 2em;
 	}
 	.peony7 {
-		right: 0;
+    right: 0;
+padding-top: 35em;
 		position: absolute;
-		padding-top: 35em;
 	}
 	.wireframe {
 		width: 50%;
@@ -1673,6 +1688,9 @@ h6 {
 		padding-top: 1em;
 		padding-bottom: 3em;
 	}
+  .personas-test {
+    padding-bottom: 0px;
+  }
 	.color {
 		width: 50%;
 	}
