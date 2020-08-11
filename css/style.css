@@ -1355,6 +1355,7 @@ h6 {
 	flex-flow: row wrap;
 	justify-content: center;
 	padding: 5px;
+  width: 50%;
 }
 
 #fs-frm #card-element:disabled {
