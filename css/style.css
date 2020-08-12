@@ -1476,8 +1476,7 @@ h6 {
 	.casp-background-5,
 	.casp-background-6,
 	.casp-background-33,
-	.nav-lines,
-	.bottomnav {
+	.nav-lines {
 		background-image: url(../Images/background-lines-tab.png);
 		background-position: center;
 		background-repeat: repeat-y;
