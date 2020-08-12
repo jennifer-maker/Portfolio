@@ -97,8 +97,7 @@ width: 100%;
 	padding-right: 25px;
 }
 
-.nav-lines,
-.bottomnav {
+.nav-lines {
 	background-image: url(../Images/BackgroundLines.png);
 	background-position: center;
 	background-repeat: repeat-y;
