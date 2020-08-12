@@ -1408,7 +1408,8 @@ h6 {
 .peony1-tab,
 .peony2-tab,
 .peony3-tab,
-.peony8-tab {
+.peony8-tab,
+.peony8-desk {
 	display: none;
 }
 
@@ -1534,7 +1535,8 @@ h6 {
   .peony1,
   .peony2,
   	.peony3,
-    .peony8  {
+    .peony8,
+    .peony8-desk  {
     display: none;
   }
 
@@ -1733,6 +1735,21 @@ padding-top: 35em;
 		text-align: left;
 		align-items: center;
 	}
+.peony8-tab{
+  display: none;
+}
+.peony8-desk {
+
+       display: flex;
+       flex-direction: row;
+       justify-content: flex-end;
+       align-items: flex-end;
+       align-self: flex-end;
+     }
+
+     .peony8-desk img {
+       width: 40%;
+     }
 	.personas {
 		line-height: 28px;
 	}
@@ -1937,7 +1954,7 @@ padding-top: 35em;
 		align-self: flex-end;
 	}
 	.container {
-		background: #FF5A5F url(../Images/Logo/peony10.png) no-repeat bottom left;
+		background: #FF5A5F url(../Images/Logo/peony13.png) no-repeat bottom left;
 		background-size: 30%;
 	}
 	.container-2 {
