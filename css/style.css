@@ -1758,6 +1758,7 @@ padding-top: 35em;
 		text-align: left;
 		align-items: center;
 	}
+
 .peony8-tab{
   display: none;
 }
@@ -1898,6 +1899,7 @@ padding-top: 35em;
 	}
 	.space-desk {
 		padding-top: 1em;
+    width: 75%;
 	}
 	.left-align {
 		display: flex;
