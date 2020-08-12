@@ -1271,8 +1271,7 @@ h6 {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-  padding-top: 18px;
-
+  padding: 10px;
 }
 
 .submit-button a {
@@ -1888,7 +1887,7 @@ padding-top: 35em;
 	}
 	.caseimage-3,
 	.caseimage-2 {
-		width: 125%;
+		width: 100%;
 	}
 	.casp-background-2 {
 		display: flex;
