@@ -1258,7 +1258,8 @@ h6 {
 	align-items: center;
 }
 
-.submit-button {
+.submit-button,
+.input {
 	color: white;
 	width: 150px;
 	height: 50px;
