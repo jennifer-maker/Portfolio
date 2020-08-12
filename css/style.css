@@ -1265,8 +1265,8 @@ h6 {
 	font-size: 20px;
 	text-align: center;
 	border-radius: 12px;
-	background-color:rgb(0, 126, 139);
-  color: rgb(0, 126, 139);
+	background-color:rgb(0, 126, 139)!important;
+  color: rgb(0, 126, 139)!important;
   white-space: normal;
 	border: none;
 	display: flex;
