@@ -1261,7 +1261,7 @@ h6 {
 	align-items: center;
 }
 
-.submit-button input {
+.submit-button, .input {
 	color: white;
 	width: 150px;
 	height: 50px;
@@ -1278,7 +1278,7 @@ h6 {
 	align-items: center;
   padding: 10px;
 }
-.submit input  {
+.submit, .input  {
   color: white;
   width: 150px;
   height: 50px;
@@ -1295,7 +1295,8 @@ h6 {
   align-items: center;
   padding: 10px;
 }
-.submit-button a {
+.submit-button a,
+.input a {
 	text-decoration: none;
 	color: white;
 }
