@@ -1262,9 +1262,12 @@ h6 {
 }
 
 .submit-button{
-  border: 1px solid rgba(0,0,0,0.2);
-  background-color: rgba(255,255,255,0.9);
+  border-radius: 12px;
+  background-color: rgb(0, 126, 139);
   padding: .75em 1rem;
+  color: white;
+  padding: 2%;
+
 /*
   color: white;
 	width: 150px;
