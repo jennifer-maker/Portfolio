@@ -553,7 +553,8 @@ h2 {
 	padding-bottom: 58px;
 }
 
-.casp-font {
+.casp-font,
+.casp-font-study {
 	font-family: Cinzel;
 	font-style: normal;
 	font-weight: normal;
@@ -1527,6 +1528,11 @@ h6 {
 	.casp-font {
 		padding-left: 10%;
 	}
+  .casp-font-study  {
+    text-align: left;
+    justify-content: flex-start;
+    padding-left: 10%;
+  }
 	.cloudy {
 		display: flex;
 		flex-direction: column;
@@ -1777,7 +1783,9 @@ h6 {
 		width: 40%;
 	}
 
-
+.cloudy   {
+  padding-left:   0px;
+}
   .tab {
     padding-left: 10%;
   }
@@ -1950,6 +1958,7 @@ h6 {
 		padding-top: 1em;
 		padding-bottom: 1em;
 		line-height: 38px;
+    padding-left: 0px;
    }
 	.h_3 {
 		font-size: 64px;
