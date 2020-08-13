@@ -1264,12 +1264,12 @@ h6 {
 
 .submit-button{
   border-radius: 12px;
-  background-color: -internal-light-dark(none);
+  background-color: -internal-light-dark none;
   background-color: rgb(255,90,95);
   color: rgb(7,57,83);
   border-image: none;
   padding: 2%;
-
+  border: none;
   font-family: Raleway;
   font-size: 20px;
   text-align: center;
@@ -1284,7 +1284,6 @@ h6 {
 	border-radius: 12px;
 	background-color: rgb(0, 126, 139)!important;
 	white-space: normal;
-	border: none;
 	display: flex;
 	flex-direction: column;
 	padding: 2%;
