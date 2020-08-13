@@ -1701,7 +1701,7 @@ h6 {
 		align-self: left;
 	}
 	.about-page {
-		padding-top: 100px;
+		/* padding-top: 100px; */
 	}
 }
 
@@ -1729,6 +1729,9 @@ h6 {
 	.peony8-desk img {
 		width: 40%;
 	}
+  .cloudy {
+    padding-left: 0px;
+  }
 	.personas {
 		line-height: 28px;
 	}
@@ -1782,7 +1785,6 @@ h6 {
 	}
 	.bigger {
 		padding-bottom: 50px;
-		padding-top: 120px;
 	}
 	.casp-font {
 		font-size: 64px;
@@ -1875,7 +1877,7 @@ h6 {
 		padding-top: 200px;
 	}
 	.about-page {
-		padding-top: 100px;
+		/* padding-top: 100px; */
 	}
 	.hero h1,
 	.hero h2,
@@ -1901,8 +1903,8 @@ h6 {
 		padding-top: 1em;
 		padding-bottom: 1em;
 		line-height: 38px;
-		/* margin-left: 1em; */
-	}
+  	 padding-left: 0px;
+   }
 	.h_3 {
 		font-size: 64px;
 		text-align: left;
