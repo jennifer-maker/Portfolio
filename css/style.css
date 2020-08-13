@@ -1442,6 +1442,42 @@ h6 {
 		top: 0;
 		width: 100%;
 	}
+  .submit-button{
+    border-radius: 12px;
+    background-color: rgb(0, 126, 139);
+    color: white;
+    width: 150px;
+    height: 50px;
+    padding: 2%;
+    border: none;
+    font-family: Raleway;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+
+
+  /*
+    color: white;
+
+
+
+  	border-radius: 12px;
+  	background-color: rgb(0, 126, 139)!important;
+  	white-space: normal;
+  	display: flex;
+  	flex-direction: column;
+  	padding: 2%;
+    */
+  }
+
+  /*
+
+  .submit-button a,
+  .input a {
+  	text-decoration: none;
+  	color: white;
+  }
+  */
 	.topnav {
 		transform: rotate(90deg);
 		position: relative;
