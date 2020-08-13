@@ -1732,6 +1732,10 @@ h6 {
   .cloudy {
     padding-left: 0px;
   }
+
+  .tab {
+    padding-left: 10%;
+  }
 	.personas {
 		line-height: 28px;
 	}
