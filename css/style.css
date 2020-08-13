@@ -1290,14 +1290,14 @@ h6 {
   */
 }
 
-/*
+
 
 .submit-button a,
 .input a {
 	text-decoration: none;
 	color: white;
 }
-*/
+
 
 .peony7 {
 	display: flex;
@@ -1466,18 +1466,17 @@ h6 {
   	white-space: normal;
   	display: flex;
   	flex-direction: column;
-  	padding: 2%;
     */
   }
 
-  /*
+
 
   .submit-button a,
   .input a {
   	text-decoration: none;
   	color: white;
   }
-  */
+
 	.topnav {
 		transform: rotate(90deg);
 		position: relative;
