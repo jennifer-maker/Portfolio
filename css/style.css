@@ -899,7 +899,11 @@ h6 {
 	color: white;
 	text-align: left;
 }
-
+.sketches {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
 .user-survey {
 	font-family: Raleway;
 	font-weight: 600;
@@ -1403,8 +1407,7 @@ h6 {
 .brand-cloud-desk,
 .peony-desk-brand,
 .casp-logo-desk,
-.sketch-desk,
-.sketch-desk-2,
+
 .typo-tab,
 .cloud-tab,
 .casp-logo-tab,
@@ -2231,10 +2234,9 @@ h6 {
 	.sketch-desk,
 	.sketch-desk-2 {
 		display: flex;
-		flex-direction: row;
-		justify-content: space-around;
+		flex-direction: column;
+		justify-content:center;
 		align-self: center;
-		width: 25%;
 	}
 	.container-4 {
 		display: flex;
@@ -2262,26 +2264,19 @@ h6 {
 		margin: 0;
 		padding-top: 1em;
 	}
-	.sketches {
+	.sketch {
 		display: flex;
-		flex-direction: row;
-		justify-content: space-around;
+		flex-direction: column;
+		justify-content: center;
 		padding: 1em;
 	}
 	.mock {
 		display: flex;
-		flex-direction: row;
-		justify-content: space-around;
-		width: 45%;
+		flex-direction: column;
+		align-items: center;
 	}
-	.mock-desk {
-		display: flex;
-		flex-direction: row;
-		justify-content: space-around;
-		align-self: center;
-	}
-	.cloud-tab,
-	.sketch-tab {
+
+	.cloud-tab {
 		display: none;
 	}
 	h5 {
