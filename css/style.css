@@ -177,6 +177,10 @@ width: 100%;
 	width: 100%;
 	padding-top: 2em;
 	padding-bottom: 2em;
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	justify-content: center;
 }
 
 .caseimage1 {
@@ -1652,7 +1656,7 @@ a:active, a:hover {
 		width: 500px;
 		padding-bottom: 50px;
 	}
-	.caseimage,
+	
 	.dashboard {
 		width: 75%;
 		margin: 0 auto;
@@ -1845,7 +1849,6 @@ a:active, a:hover {
 		width: 100%;
 	}
 	.caseimage1,
-	.dashboard,
 	.typo-tab {
 		display: none;
 	}
@@ -1861,12 +1864,7 @@ a:active, a:hover {
 	.casp-font {
 		font-size: 64px;
 	}
-	.casp-desktop {
-		display: flex;
-		flex-direction: column;
-		width: 50%;
-		padding-bottom: 2em;
-	}
+
 	.row,
 	.row-tab {
 		width: 100%;
@@ -2016,7 +2014,6 @@ a:active, a:hover {
 	.peony3 img,
 	.caseimage1,
 	.about-image,
-	.caseimage,
 	.view-proto,
 	.casp-logo-tab {
 		display: none;
