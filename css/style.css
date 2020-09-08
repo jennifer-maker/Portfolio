@@ -83,6 +83,7 @@ width: 100%;
 }
 
 
+
 .bottomnav {
 	font-family: Raleway;
 	font-weight: normal;
@@ -1430,9 +1431,10 @@ h6 {
 	align-items: center;
 }
 
-a:active, a:hover {
+.active, a:active, a:hover {
 	color: #bfbdbc;
 }
+
 @media only screen and (min-width: 600px) {
 	header {
 		padding-bottom: 0px;
@@ -1656,7 +1658,7 @@ a:active, a:hover {
 		width: 500px;
 		padding-bottom: 50px;
 	}
-	
+
 	.dashboard {
 		width: 75%;
 		margin: 0 auto;
@@ -2217,7 +2219,7 @@ a:active, a:hover {
 	.casp-logo-desk {
 		display: flex;
 		align-self: center;
-		width: 30%;
+		object-fit: contain;
 	}
 	.h-3-desk {
 		display: flex;
@@ -2229,7 +2231,7 @@ a:active, a:hover {
 	.casp-logo-desk {
 		display: flex;
 		align-self: center;
-		width: 30%;
+		object-fit: contain;
 	}
 	.sketch-desk,
 	.sketch-desk-2 {
@@ -2285,9 +2287,10 @@ a:active, a:hover {
 		padding-bottom: 30px;
 		padding-left: 0px;
 	}
-	a:active, a:hover {
+	.active, a:active, a:hover {
 		color: #bfbdbc;
 	}
+
 }
 
 
@@ -2314,9 +2317,10 @@ a:active, a:hover {
 		background-repeat: repeat-y;
 		width: 100%;
 	}
-	a:active, a:hover {
+	.active, a:active, a:hover {
 		color: #bfbdbc;
 	}
+
 }
 
 @media only screen and (max-width: 1600px) {}
