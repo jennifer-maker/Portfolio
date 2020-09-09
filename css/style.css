@@ -1113,7 +1113,35 @@ h6 {
 	background-repeat: repeat-y;
 	width: 100%;
 }
+.container-intellic {
+	background: darkgray;
+	background-image: url(../Images/BackgroundLines.png);
+	background-position: center;
+	background-repeat: repeat-y;
+	width: 100%;
+	font-family: Montserrat;
+	color: white;
+}
 
+.intellic-type {
+	font-family: Montserrat;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	line-height: 3em;
+}
+.intellic-logo {
+	font-size: 48px;
+}
+
+.intellic-moto {
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.intellic-big {
+	font-size: 30px;
+}
 .case1 {
 	display: flex;
 	flex-direction: column;
