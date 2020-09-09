@@ -490,6 +490,16 @@ width: 100%;
 	width: 100%;
 }
 
+.testing {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 75%;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
 .teal {
 	background: #007E8B;
 	background-image: url(../Images/BackgroundLines.png);
@@ -1717,9 +1727,11 @@ h6 {
 		padding-top: 35em;
 		position: absolute;
 	}
-	.wireframe {
-		width: 50%;
+	.wireframe,
+	.testing {
+		width: 80%;
 	}
+
 	.cloud,
 	.typo,
 	.casp-logo {
@@ -2287,7 +2299,7 @@ h6 {
 		padding-bottom: 30px;
 		padding-left: 0px;
 	}
-	.active, a:active, a:hover {
+.topnav .active, a:active, a:hover {
 		color: #bfbdbc;
 	}
 
