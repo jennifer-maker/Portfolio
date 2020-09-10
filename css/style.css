@@ -1453,6 +1453,9 @@ h6 {
 	.active, a:active, a:hover {
 		color: #bfbdbc;
 	}
+	.story {
+		width: 50%;
+	}
 	.left-align {
 		display: flex;
 		flex-direction: column;
@@ -1800,6 +1803,7 @@ h6 {
 		width: 90px;
 		height: 128px;
 	}
+
 	.personasDesk {
 		display: flex;
 		flex-direction: column;
@@ -2301,6 +2305,9 @@ h6 {
 		/* padding-left: 100px; */
 		padding-bottom: 30px;
 		padding-left: 0px;
+	}
+	.story {
+		width: 33%;
 	}
 .topnav .active, a:active, a:hover {
 		color: #bfbdbc;
