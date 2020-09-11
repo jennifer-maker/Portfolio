@@ -1861,14 +1861,17 @@ h6 {
 		height: 100%;
 		margin-right: 0px;
 	}
-	.caseimage2 {
-		display: flex;
-		align-self: flex-end;
-		float: right;
+
+	.right  {
+		background-image: url(../Images/cloud-2.png);
+		width: 50%;
 	}
-	.right .caseimage2 {
-		height: 100%;
+	.caseimage2 {
+		margin: auto;
+		text-align: center;
+		display: block;
 		width: 100%;
+
 	}
 	.caseimage1,
 	.typo-tab {
