@@ -1865,6 +1865,8 @@ h6 {
 	.right  {
 		background-image: url(../Images/cloud-2.png);
 		width: 50%;
+		display: flex;
+		align-items: center;
 	}
 	.caseimage2 {
 		margin: auto;
