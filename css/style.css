@@ -1445,6 +1445,11 @@ h6 {
 .topnav .active, a:active, a:hover {
 		color: #bfbdbc;
 	}
+	.row {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
 
 @media only screen and (min-width: 600px) {
 	header {
