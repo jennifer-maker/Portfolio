@@ -1442,9 +1442,9 @@ h6 {
 	align-items: center;
 }
 
-.active, a:active, a:hover {
-	color: #bfbdbc;
-}
+.topnav .active, a:active, a:hover {
+		color: #bfbdbc;
+	}
 
 @media only screen and (min-width: 600px) {
 	header {
@@ -2344,9 +2344,9 @@ h6 {
 		background-repeat: repeat-y;
 		width: 100%;
 	}
-	.active, a:active, a:hover {
-		color: #bfbdbc;
-	}
+	.topnav .active, a:active, a:hover {
+			color: #bfbdbc;
+		}
 
 }
 
