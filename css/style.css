@@ -43,6 +43,19 @@ width: 100%;
 	background-repeat: repeat-y;
 	width: 100%;
 }
+.flow {
+	font-family: Montserrat;
+	font-weight: normal;
+	text-align: center;
+	font-size: 24px;
+	line-height: 16px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
 
 .logo {
 	width: 56px;
