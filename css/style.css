@@ -43,6 +43,7 @@ width: 100%;
 	background-repeat: repeat-y;
 	width: 100%;
 }
+
 .flow {
 	font-family: Montserrat;
 	font-weight: normal;
@@ -95,8 +96,6 @@ width: 100%;
 	color: white;
 	padding-right: 15px;
 }
-
-
 
 .bottomnav {
 	font-family: Raleway;
@@ -849,7 +848,7 @@ h6 {
 	display: flex;
 	flex-direction: column;
 	text-align: left;
-	align-items: left;
+	align-items: flex-end;
 }
 
 .casp-background-3 {
@@ -867,7 +866,7 @@ h6 {
 	width: 100%;
 	display: flex;
 	flex-direction: column;
-	align-items: left;
+	align-items: flex-end;
 	text-align: center;
 }
 
@@ -928,11 +927,13 @@ h6 {
 	color: white;
 	text-align: left;
 }
+
 .sketches {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
+
 .user-survey {
 	font-family: Raleway;
 	font-weight: 600;
@@ -1303,20 +1304,17 @@ h6 {
 	align-items: center;
 }
 
-.submit-button{
-  border-radius: 12px;
-
-  color: rgb(7,57,83);
-  border-image: none;
-  padding: 2%;
-  border: none;
-  font-family: Raleway;
-  font-size: 20px;
-  text-align: center;
-  align-items: center;
-
-
-/*
+.submit-button {
+	border-radius: 12px;
+	color: rgb(7, 57, 83);
+	border-image: none;
+	padding: 2%;
+	border: none;
+	font-family: Raleway;
+	font-size: 20px;
+	text-align: center;
+	align-items: center;
+	/*
   color: white;
 
 
@@ -1330,13 +1328,10 @@ h6 {
   */
 }
 
-
-
 .submit-button a {
 	text-decoration: none;
 	color: white;
 }
-
 
 .peony7 {
 	display: flex;
@@ -1436,7 +1431,6 @@ h6 {
 .brand-cloud-desk,
 .peony-desk-brand,
 .casp-logo-desk,
-
 .typo-tab,
 .cloud-tab,
 .casp-logo-tab,
@@ -1455,25 +1449,64 @@ h6 {
 	align-items: center;
 }
 
-.topnav .active, a:active, a:hover {
-		color: #bfbdbc;
-	}
-	.row {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-	}
+.topnav .active,
+a:active,
+a:hover {
+	color: #a41417;
+}
+
+.row {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
 
 @media only screen and (min-width: 600px) {
 	header {
 		padding-bottom: 0px;
 	}
-	.active, a:active, a:hover {
-		color: #bfbdbc;
+	.topnav .active,
+	a:active,
+	a:hover {
+		color: #a41417;
 	}
 	.story {
 		width: 30%;
 	}
+	/*Floating Back-To-Top Button*/
+    #myBtn {
+			text-decoration: none;
+			font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 15px;
+	align-items: center;
+	border-radius: 12px;
+	border: none;
+
+        position: fixed;
+        bottom: 10px;
+        float: right;
+        right: 10%;
+        left: 90%;
+        max-width: 75px;
+        width: 100%;
+				        padding: .5px;
+
+				background-color: #FF5A5F;
+				color: white;
+				padding: 2%;
+
+
+    }
+		#myBtn a {
+			text-decoration: none;
+		}
+/*On Hover Color Change*/
+    #myBtn:hover {
+        background-color:#a41417;
+    }
 	.left-align {
 		display: flex;
 		flex-direction: column;
@@ -1498,19 +1531,17 @@ h6 {
 		top: 0;
 		width: 100%;
 	}
-  .submit-button{
-    border-radius: 12px;
-    background-color: rgb(0, 126, 139);
-    color: white;
-    padding: 2%;
-    border: none;
-    font-family: Raleway;
-    font-size: 20px;
-    text-align: center;
-    align-items: center;
-
-
-  /*
+	.submit-button {
+		border-radius: 12px;
+		background-color: rgb(0, 126, 139);
+		color: white;
+		padding: 2%;
+		border: none;
+		font-family: Raleway;
+		font-size: 20px;
+		text-align: center;
+		align-items: center;
+		/*
     color: white;
 
 
@@ -1521,16 +1552,12 @@ h6 {
   	display: flex;
   	flex-direction: column;
     */
-  }
-
-
-
-  .submit-button a,
-  .input a {
-  	text-decoration: none;
-  	color: white;
-  }
-
+	}
+	.submit-button a,
+	.input a {
+		text-decoration: none;
+		color: white;
+	}
 	.topnav {
 		transform: rotate(90deg);
 		position: relative;
@@ -1584,11 +1611,11 @@ h6 {
 	.casp-font {
 		padding-left: 10%;
 	}
-  .casp-font-study  {
-    text-align: left;
-    justify-content: flex-start;
-    padding-left: 10%;
-  }
+	.casp-font-study {
+		text-align: left;
+		justify-content: flex-start;
+		padding-left: 10%;
+	}
 	.cloudy {
 		display: flex;
 		flex-direction: column;
@@ -1693,7 +1720,6 @@ h6 {
 		width: 500px;
 		padding-bottom: 50px;
 	}
-
 	.dashboard {
 		width: 75%;
 		margin: 0 auto;
@@ -1756,7 +1782,6 @@ h6 {
 	.testing {
 		width: 80%;
 	}
-
 	.cloud,
 	.typo,
 	.casp-logo {
@@ -1809,7 +1834,7 @@ h6 {
 	}
 	.align {
 		text-align: left;
-		align-self: left;
+		align-self: flex-end;
 	}
 	.about-page {
 		/* padding-top: 100px; */
@@ -1821,7 +1846,6 @@ h6 {
 		width: 90px;
 		height: 128px;
 	}
-
 	.personasDesk {
 		display: flex;
 		flex-direction: column;
@@ -1841,13 +1865,12 @@ h6 {
 	.peony8-desk img {
 		width: 40%;
 	}
-
-.cloudy   {
-  padding-left:   0px;
-}
-  .tab {
-    padding-left: 10%;
-  }
+	.cloudy {
+		padding-left: 0px;
+	}
+	.tab {
+		padding-left: 10%;
+	}
 	.personas {
 		line-height: 28px;
 	}
@@ -1879,8 +1902,7 @@ h6 {
 		height: 100%;
 		margin-right: 0px;
 	}
-
-	.right  {
+	.right {
 		background-image: url(../Images/cloud-2.png);
 		width: 50%;
 		display: flex;
@@ -1891,7 +1913,6 @@ h6 {
 		text-align: center;
 		display: block;
 		width: 100%;
-
 	}
 	.caseimage1,
 	.typo-tab {
@@ -1909,7 +1930,6 @@ h6 {
 	.casp-font {
 		font-size: 64px;
 	}
-
 	.row,
 	.row-tab {
 		width: 100%;
@@ -1957,9 +1977,11 @@ h6 {
 		padding-left: 10%;
 		padding-right: 10%;
 	}
-	.flow-1,
 	.wireframe {
 		width: 250%;
+	}
+	.flow-1 {
+		width: 65%;
 	}
 	.wireframe {
 		display: flex;
@@ -1991,7 +2013,6 @@ h6 {
 	h5 {
 		padding-top: 200px;
 	}
-
 	.hero h1,
 	.hero h2,
 	.welcome1,
@@ -2016,8 +2037,8 @@ h6 {
 		padding-top: 1em;
 		padding-bottom: 1em;
 		line-height: 38px;
-    padding-left: 0px;
-   }
+		padding-left: 0px;
+	}
 	.h_3 {
 		font-size: 64px;
 		text-align: left;
@@ -2150,7 +2171,6 @@ h6 {
 		justify-content: center;
 		align-items: center;
 	}
-
 	.roles3,
 	.roles4 {
 		text-align: left;
@@ -2279,7 +2299,7 @@ h6 {
 	.sketch-desk-2 {
 		display: flex;
 		flex-direction: column;
-		justify-content:center;
+		justify-content: center;
 		align-self: center;
 	}
 	.container-4 {
@@ -2319,7 +2339,6 @@ h6 {
 		flex-direction: column;
 		align-items: center;
 	}
-
 	.cloud-tab {
 		display: none;
 	}
@@ -2332,12 +2351,12 @@ h6 {
 	.story {
 		width: 33%;
 	}
-.topnav .active, a:active, a:hover {
-		color: #bfbdbc;
+	.topnav .active,
+	a:active,
+	a:hover {
+		color: #a41417;
 	}
-
 }
-
 
 @media only screen and (min-width: 1100px) {
 	.hero,
@@ -2362,10 +2381,11 @@ h6 {
 		background-repeat: repeat-y;
 		width: 100%;
 	}
-	.topnav .active, a:active, a:hover {
-			color: #bfbdbc;
-		}
-
+	.topnav .active,
+	a:active,
+	a:hover {
+		color: #a41417;
+	}
 }
 
 @media only screen and (max-width: 1600px) {}
