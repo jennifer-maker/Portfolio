@@ -1490,9 +1490,6 @@ a:hover {
         float: right;
         right: 10%;
         left: 90%;
-        max-width: 75px;
-        width: 100%;
-				        padding: .5px;
 
 				background-color: #FF5A5F;
 				color: white;
@@ -1834,7 +1831,6 @@ a:hover {
 	}
 	.align {
 		text-align: left;
-		align-self: flex-end;
 	}
 	.about-page {
 		/* padding-top: 100px; */
