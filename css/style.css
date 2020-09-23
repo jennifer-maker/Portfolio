@@ -80,6 +80,50 @@ width: 100%;
 	padding-top: 100px;
 }
 
+.container-soon {
+	background-color: #93151B;
+}
+.container-soon {
+	background-image: url(../Images/BackgroundLines.png);
+	background-position: center;
+	background-repeat: repeat-y;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	font-family: Montserrat;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 3em;
+
+}
+.intellic-pic-1 {
+	display: flex;
+	flex-direction: column;
+		width: 100%;
+		padding-top: 2em;
+}
+.intellic {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	font-family: Montserrat;
+	font-weight: normal;
+	color: white;
+	line-height: 3em;
+	padding-left: 10%;
+	padding-right: 10%;
+	text-align: left;
+	justify-content: flex-start;
+}
+.soon {
+	/* padding-left: 10%; */
+	padding-top: 3em;
+}
+.intellic-pic-2 {
+	display: none;
+}
+
 
 /*** Nav Bars ***/
 
@@ -384,6 +428,7 @@ width: 100%;
 	background-position: center;
 	background-repeat: repeat-y;
 	width: 100%;
+	padding-top: 10em;
 	/* padding-right: 10%; */
 	/* padding-left: 10%; */
 }
@@ -563,11 +608,11 @@ h1 {
 	line-height: 50px;
 	/* padding-left: 29px; */
 	/* padding-right: 29px; */
-	padding-top: 150px;
 	padding-bottom: 25px;
 	align-items: center;
 	text-align: center;
 	color: white;
+	/* padding-left: 10%; */
 }
 
 h2 {
@@ -1500,11 +1545,19 @@ a:hover {
 	#myBtn:hover {
 		background-color: #a41417;
 	}
+	h1 {
+		text-align: left;
+	}
 	.left-align {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+	}
+
+	.soon {
+		padding-left: 10%;
+		padding-top: 3em;
 	}
 	.persona-pic {
 		display: flex;
@@ -1565,6 +1618,7 @@ a:hover {
 	}
 	.hero,
 	.caspian,
+	.container-soon,
 	.final,
 	.hero-contact,
 	.contact-bottomnav,
@@ -1583,10 +1637,10 @@ a:hover {
 		background-position: center;
 		background-repeat: repeat-y;
 		width: 100%;
-		/* padding-bottom: 3em; */
+		padding-bottom: 3em;
 	}
 	.hero h1 {
-		padding-top: 200px;
+		/* padding-top: 200px; */
 	}
 	.hero h1,
 	.hero h2,
@@ -1837,6 +1891,15 @@ a:hover {
 }
 
 @media screen and (min-width: 1024px) {
+	.intellic-pic-1 {
+		display: none;
+	}
+	.intellic-pic-2 {
+		display: flex;
+		flex-direction: column;
+			width: 100%;
+			padding-top: 2em;
+	}
 	.logo {
 		width: 90px;
 		height: 128px;
@@ -1846,6 +1909,10 @@ a:hover {
 		flex-direction: column;
 		text-align: left;
 		align-items: center;
+	}
+	.soon {
+		padding-left: 0px;
+		padding-top: 3em;
 	}
 	.peony8-tab {
 		display: none;
@@ -1875,7 +1942,7 @@ a:hover {
 		flex-direction: column;
 		align-items: center;
 	}
-	.caspian {
+	.caspian, .container-soon {
 		display: flex;
 		flex-direction: row;
 		height: 1022px;
@@ -1892,13 +1959,19 @@ a:hover {
 		align-items: flex-start;
 		padding-left: 10%
 	}
-	.right {
+	.right, .right-soon {
 		width: 50%;
 		height: 100%;
 		margin-right: 0px;
 	}
 	.right {
 		background-image: url(../Images/cloud-2.png);
+		width: 50%;
+		display: flex;
+		align-items: center;
+	}
+	.right-soon {
+		background-image: url(../Images/intellic/intellic-pic-1.jpg);
 		width: 50%;
 		display: flex;
 		align-items: center;
@@ -2356,6 +2429,7 @@ a:hover {
 @media only screen and (min-width: 1100px) {
 	.hero,
 	.caspian,
+	.container-soon,
 	.final,
 	.hero-contact,
 	.contact-bottomnav,
@@ -2380,6 +2454,11 @@ a:hover {
 	a:active,
 	a:hover {
 		color: #a41417;
+	}
+	.right-soon {
+		display: flex;
+		flex-direction: row;
+		align-items: flex-end;
 	}
 }
 
