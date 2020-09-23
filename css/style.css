@@ -120,9 +120,7 @@ width: 100%;
 	/* padding-left: 10%; */
 	padding-top: 3em;
 }
-.intellic-pic-2 {
-	display: none;
-}
+
 
 
 /*** Nav Bars ***/
@@ -1891,15 +1889,13 @@ a:hover {
 }
 
 @media screen and (min-width: 1024px) {
-	.intellic-pic-1 {
+
+	.intellic-pic-1 img{
 		display: none;
 	}
-	.intellic-pic-2 {
-		margin: auto;
-		    text-align: center;
-		    display: block;
-		    max-width: 100%;
-	}
+		.intellic-pic-1 {
+			display: none;
+		}
 	.logo {
 		width: 90px;
 		height: 128px;
@@ -1971,11 +1967,12 @@ a:hover {
 		align-items: center;
 	}
 	.right-soon {
-		background-image: url(../Images/intellic/intellic-pic-1.png);
+		background-image: url(../Images/intellic/intellic-pic-2.jpg);
 		width: 50%;
 		display: flex;
 		align-items: center;
 	}
+
 	.caseimage2 {
 		margin: auto;
 		text-align: center;
@@ -2456,13 +2453,6 @@ a:hover {
 		color: #a41417;
 	}
 
-	.right-soon {
-		background-image: url(../Images/intellic/intellic-pic-1.png);
-		max-width: 50%;
-		display: flex;
-		align-items: center;
-		object-fit: contain;
-		}
 }
 
 @media only screen and (max-width: 1600px) {
