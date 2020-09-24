@@ -1,6 +1,8 @@
 /*font-family: 'Cinzel', serif;
 font-family: 'Montserrat', sans-serif;
 font-family: 'Raleway', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Poiret One', cursive;
 font-family: 'Work Sans', sans-serif;*/
 
 * {
@@ -97,6 +99,66 @@ width: 100%;
 	line-height: 3em;
 
 }
+.container-special {
+	background-color: #00AEA4;
+}
+.container-special {
+	background-image: url(../Images/BackgroundLines.png);
+	background-position: center;
+	background-repeat: repeat-y;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	font-family: Montserrat;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 3em;
+	padding-left: 10%;
+	padding-right: 10%;
+	text-align: center;
+	justify-content: center;
+}
+.special-class {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+.special-para {
+	font-family: Raleway;
+	font-weight: normal;
+	color: white;
+	font-size: 24px;
+	line-height: 2em;
+}
+.special-bold {
+	font-weight:normal;
+	font-size: 45px;
+	color: white;
+	line-height: 1.5em;
+	padding-bottom: 1em;
+}
+.special-title {
+	font-family: Poiret One;
+	color: white;
+	font-size: 55px;
+	line-height: 1.5em;
+	padding-bottom: .5em;
+}
+.special-logo {
+	display: flex;
+	flex-direction: column;
+		width: 100%;
+		padding-top: 2em;
+}
+.extrabold {
+	font-family: Raleway;
+	color: white;
+	font-size: 24px;
+	line-height: 2em;
+	font-weight: 600;
+}
 .intellic-pic-1 {
 	display: flex;
 	flex-direction: column;
@@ -120,7 +182,10 @@ width: 100%;
 	/* padding-left: 10%; */
 	padding-top: 3em;
 }
-
+.special {
+	/* padding-left: 10%; */
+	padding-top: 3em;
+}
 
 
 /*** Nav Bars ***/
@@ -1557,6 +1622,32 @@ a:hover {
 		padding-left: 10%;
 		padding-top: 3em;
 	}
+
+
+		.special {
+			padding-left: 10%;
+			padding-top: 3em;
+		}
+		.container-special {
+			background-image: url(../Images/BackgroundLines.png);
+			background-position: center;
+			background-repeat: repeat-y;
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			font-family: Montserrat;
+			font-weight: normal;
+			font-size: 30px;
+			line-height: 3em;
+			padding-left: 10%;
+			padding-right: 10%;
+			text-align: left;
+			justify-content: flex-start;
+		}
+		.special-title {
+			padding-bottom: 0px;
+		}
 	.persona-pic {
 		display: flex;
 		justify-content: center;
@@ -1617,6 +1708,7 @@ a:hover {
 	.hero,
 	.caspian,
 	.container-soon,
+	.container-special,
 	.final,
 	.hero-contact,
 	.contact-bottomnav,
@@ -1910,6 +2002,11 @@ a:hover {
 		padding-left: 0px;
 		padding-top: 3em;
 	}
+
+	.special {
+		padding-left: 0px;
+		padding-top: 3em;
+	}
 	.peony8-tab {
 		display: none;
 	}
@@ -1938,7 +2035,7 @@ a:hover {
 		flex-direction: column;
 		align-items: center;
 	}
-	.caspian, .container-soon {
+	.caspian, .container-soon, .container-special {
 		display: flex;
 		flex-direction: row;
 		height: 1022px;
@@ -1955,7 +2052,7 @@ a:hover {
 		align-items: flex-start;
 		padding-left: 10%
 	}
-	.right, .right-soon {
+	.right, .right-soon, .right-special {
 		width: 50%;
 		height: 100%;
 		margin-right: 0px;
@@ -1968,6 +2065,12 @@ a:hover {
 	}
 	.right-soon {
 		background-image: url(../Images/intellic/intellic-pic-2.png);
+		width: 50%;
+		display: flex;
+		align-items: center;
+	}
+	.right-special {
+		background-image: url(../Images/special-connections/sc-back-pic.png);
 		width: 50%;
 		display: flex;
 		align-items: center;
@@ -2427,6 +2530,7 @@ a:hover {
 	.hero,
 	.caspian,
 	.container-soon,
+	.container-special,
 	.final,
 	.hero-contact,
 	.contact-bottomnav,
