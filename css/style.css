@@ -85,6 +85,7 @@ width: 100%;
 .container-soon {
 	background-color: #93151B;
 }
+
 .container-soon {
 	background-image: url(../Images/BackgroundLines.png);
 	background-position: center;
@@ -97,11 +98,12 @@ width: 100%;
 	font-weight: normal;
 	font-size: 30px;
 	line-height: 3em;
-
 }
+
 .container-special {
 	background-color: #00AEA4;
 }
+
 .container-special {
 	background-image: url(../Images/BackgroundLines.png);
 	background-position: center;
@@ -119,12 +121,14 @@ width: 100%;
 	text-align: center;
 	justify-content: center;
 }
+
 .special-class {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
 }
+
 .special-para {
 	font-family: Raleway;
 	font-weight: normal;
@@ -132,13 +136,15 @@ width: 100%;
 	font-size: 24px;
 	line-height: 2em;
 }
+
 .special-bold {
-	font-weight:normal;
+	font-weight: normal;
 	font-size: 45px;
 	color: white;
 	line-height: 1.5em;
 	padding-bottom: 1em;
 }
+
 .special-title {
 	font-family: Poiret One;
 	color: white;
@@ -146,12 +152,14 @@ width: 100%;
 	line-height: 1.5em;
 	padding-bottom: .5em;
 }
+
 .special-logo {
 	display: flex;
 	flex-direction: column;
-		width: 100%;
-		padding-top: 2em;
+	width: 100%;
+	padding-top: 2em;
 }
+
 .extrabold {
 	font-family: Raleway;
 	color: white;
@@ -159,12 +167,14 @@ width: 100%;
 	line-height: 2em;
 	font-weight: 600;
 }
+
 .intellic-pic-1 {
 	display: flex;
 	flex-direction: column;
-		width: 100%;
-		padding-top: 2em;
+	width: 100%;
+	padding-top: 2em;
 }
+
 .intellic {
 	display: flex;
 	flex-direction: column;
@@ -178,10 +188,12 @@ width: 100%;
 	text-align: left;
 	justify-content: flex-start;
 }
+
 .soon {
 	/* padding-left: 10%; */
 	padding-top: 3em;
 }
+
 .special {
 	/* padding-left: 10%; */
 	padding-top: 3em;
@@ -1617,37 +1629,34 @@ a:hover {
 		justify-content: center;
 		align-items: center;
 	}
-
 	.soon {
 		padding-left: 10%;
 		padding-top: 3em;
 	}
-
-
-		.special {
-			padding-left: 10%;
-			padding-top: 3em;
-		}
-		.container-special {
-			background-image: url(../Images/BackgroundLines.png);
-			background-position: center;
-			background-repeat: repeat-y;
-			width: 100%;
-			display: flex;
-			flex-direction: column;
-			align-items: flex-start;
-			font-family: Montserrat;
-			font-weight: normal;
-			font-size: 30px;
-			line-height: 3em;
-			padding-left: 10%;
-			padding-right: 10%;
-			text-align: left;
-			justify-content: flex-start;
-		}
-		.special-title {
-			padding-bottom: 0px;
-		}
+	.special {
+		padding-left: 10%;
+		padding-top: 3em;
+	}
+	.container-special {
+		background-image: url(../Images/BackgroundLines.png);
+		background-position: center;
+		background-repeat: repeat-y;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		font-family: Montserrat;
+		font-weight: normal;
+		font-size: 30px;
+		line-height: 3em;
+		padding-left: 10%;
+		padding-right: 10%;
+		text-align: left;
+		justify-content: flex-start;
+	}
+	.special-title {
+		padding-bottom: 0px;
+	}
 	.persona-pic {
 		display: flex;
 		justify-content: center;
@@ -1775,9 +1784,9 @@ a:hover {
 		/* margin-left: 85px; */
 	}
 	.view-user {
-    /* padding-bottom: 3em; */
-    margin-bottom: 1em;
-}
+		/* padding-bottom: 3em; */
+		margin-bottom: 1em;
+	}
 	.space {
 		/* padding-left: 0px; */
 		padding-bottom: 3em;
@@ -1981,13 +1990,12 @@ a:hover {
 }
 
 @media screen and (min-width: 1024px) {
-
-	.intellic-pic-1 img{
+	.intellic-pic-1 img {
 		display: none;
 	}
-		.intellic-pic-1 {
-			display: none;
-		}
+	.intellic-pic-1 {
+		display: none;
+	}
 	.logo {
 		width: 90px;
 		height: 128px;
@@ -2002,7 +2010,6 @@ a:hover {
 		padding-left: 0px;
 		padding-top: 3em;
 	}
-
 	.special {
 		padding-left: 0px;
 		padding-top: 3em;
@@ -2035,7 +2042,9 @@ a:hover {
 		flex-direction: column;
 		align-items: center;
 	}
-	.caspian, .container-soon, .container-special {
+	.caspian,
+	.container-soon,
+	.container-special {
 		display: flex;
 		flex-direction: row;
 		height: 1022px;
@@ -2052,7 +2061,9 @@ a:hover {
 		align-items: flex-start;
 		padding-left: 10%
 	}
-	.right, .right-soon, .right-special {
+	.right,
+	.right-soon,
+	.right-special {
 		width: 50%;
 		height: 100%;
 		margin-right: 0px;
@@ -2075,7 +2086,6 @@ a:hover {
 		display: flex;
 		align-items: center;
 	}
-
 	.caseimage2 {
 		margin: auto;
 		text-align: center;
@@ -2177,7 +2187,6 @@ a:hover {
 		flex-direction: row;
 		justify-content: space-around;
 	}
-
 	h5 {
 		padding-top: 200px;
 	}
@@ -2233,7 +2242,6 @@ a:hover {
 		background: #FF5A5F url(../Images/Logo/peony13.png) no-repeat bottom left;
 		background-size: 30%;
 	}
-
 	.container-5 {
 		background: #073953 url(../Images/Logo/peony10.png) no-repeat bottom right;
 		background-size: 40%;
@@ -2244,7 +2252,6 @@ a:hover {
 		background-size: 50%;
 		background-repeat: no-repeat;
 	}
-
 	.peony3 img,
 	.caseimage1,
 	.about-image,
@@ -2556,9 +2563,6 @@ a:hover {
 	a:hover {
 		color: #a41417;
 	}
-
 }
 
-@media only screen and (max-width: 1600px) {
-
-}
+@media only screen and (max-width: 1600px) {}
